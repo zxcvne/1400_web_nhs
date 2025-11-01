@@ -74,3 +74,29 @@ Day1
 (2) Eclipse 실행 > Help > MarketPlace
 (3) Spring 검색 > STS 최신(현재는 4) 버전 설치
 (4) 한참 설치 + 2번의 trust > Eclipse 재시작
+(5) New > Spring Starter Project로 프로젝트 생성
+(6) Java 21, Maven, Jar를 선택하고 프로젝트명은 board
+(7) Dependency 9개 추가
+    - springboot Devtools
+    - Lombok
+    - Spring configuration Processer
+    - JDBC API
+    - MyBatis Framework
+    - MariaDB Driver
+    - Thymeleaf
+    - Spring web
+    - Spring webServices
+
+(8) 우측 하단에 다운로드 표시줄 완료 되기를 기다리기
+(9) 프로젝트 우클릭 > Run as > Spring Boot App
+    => 반갑게 오류로 맞아줌
+(10) BoardApplication.java에서
+    @SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
+    => DB 자동 연결 해제
+(11) Application.properties(나뭇잎) 더블클릭
+    => server.port = 10000설정
+(12) 웹 브라우저에서 localhost:10000
+    => whiteLable Error => 이건 성공이다.
+(13) resource/template에
+     index.html 작성 후 재실행 => 드디어 성공
+     
