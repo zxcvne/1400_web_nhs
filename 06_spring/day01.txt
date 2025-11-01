@@ -44,3 +44,33 @@ Day1
         
         -> 개발 시간보다 환경 구축에 더 많은 시간이 소요되어
            EJB 사용이 대세였던 이 기간을 Winter라고 부름
+           
+4. Spring  
+    - EJB의 통치 기간을 Winter로 비유하면서 지어진 이름
+    - 창시자는 로드 존슨(Rod Johnson)
+      EJB를 비판하며 책을 쓰고 개선점을 구현한 3만 줄의 예제 제공
+      => 책 출간 후 전문가들의 폭발적인 관심으로 오픈 소스 프로젝트 시작
+
+5. Spring 프레임워크의 특징
+    - 복잡함이 싫어서 만들어진 프레임워크
+    - 프로젝트 전체 구조를 설계할 때 유용한 프레임워크
+    - 다른 프레임워크와 혼용하여 사용 가능(포용)
+    - 개발 생산성을 높이며 다양한 개발 도구 지원
+
+(1) POJO 기반의 구성
+    POJO(Plain Old Java Object)
+    오래된 방식의 간단한 자바 객체라는 의미
+    - Java 코드에서 일반적으로 객체를 구성하는 방식을 
+      스프링에서 그대로 사용 가능
+
+(2) 의존성 주입(DI)을 통한 객체간의 관계 구성
+(3) AOP(Aspect-Oriented Programming)
+(4) 편리한 MVC 구조
+(5) 단위 테스트 지원
+(6) Annotation 기반의 개발 구조
+
+6. First Work
+(1) Java 21(25), Eclipse JEE 설치
+(2) Eclipse 실행 > Help > MarketPlace
+(3) Spring 검색 > STS 최신(현재는 4) 버전 설치
+(4) 한참 설치 + 2번의 trust > Eclipse 재시작
