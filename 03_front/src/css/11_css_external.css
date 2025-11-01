@@ -1,0 +1,29 @@
+/* for Test */
+/*
+body {
+    color: crimson;
+}
+*/
+.table {
+    width: 300px;
+    height: 200px;
+}
+th {
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+tr {
+    text-align: right;
+}
+td {
+    text-align: center;
+}
+tr:hover {
+    background-color: aquamarine;
+    font-size: 20px;
+}
+h1:hover {
+    background-color: black;
+    color: white;
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>현재 날씨</title>
+    <style>
+      .wrap {
+        background-color: darkblue;
+        width: 400px;
+        height: 800px;
+        margin: 100px auto;
+        padding: 100px;
+        border-radius: 10px;
+        border: 10px solid #333;
+      }
+      #main,
+      #temp,
+      #icon {
+        color: white;
+        font-size: 32px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div id="main"></div>
+      <div id="temp"></div>
+      <div id="icon">
+        <img width="200px" id="iconimg" />
+      </div>
+    </div>
+    <script>
+      const API_KEY = "f77cd15027f8e908b6408268a7e5a44c";
+      var url =
+        "http://api.openweathermap.org/data/2.5/weather?lat=0&lon=0" +
+        "&appid=" +
+        API_KEY +
+        "&units=metric";
+      console.log(url);
+
+      const main = document.getElementById("main");
+      const temp = document.getElementById("temp");
+      const iconSection = document.getElementById("iconimg");
+      console.log(main);
+
+      function getWeatherInfo(position) {
+        var lat = position.coords.latitude; // 위도
+        var lon = position.coords.longitude; // 경도
+        console.log("<h1>Live in " + lat + ", " + lon + "</h1>");
+
+        url =
+          "http://api.openweathermap.org/data/2.5/weather?" +
+          "lat=" +
+          lat +
+          "&lon=" +
+          lon +
+          "&appid=" +
+          API_KEY +
+          "&units=metric";
+
+        fetch(url)
+          .then((response) => response.json())
+          .then((data) => {
+            // display information
+            console.log(data);
+            console.log(data.weather[0].main);
+            main.innerText = data.weather[0].main;
+            temp.innerText = data.main.temp + "ºC";
+
+            // icon
+            icon = data.weather[0].icon;
+            console.log(icon);
+            const iconURL =
+              "http://openweathermap.org/img/wn/" + icon + "@2x.png";
+            iconSection.setAttribute("src", iconURL);
+
+            // http://openweathermap.org/img/wn/03d@2x.png
+          });
+      }
+
+      navigator.geolocation.getCurrentPosition(getWeatherInfo);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS Selector</title>
+  </head>
+  <body>
+    <h1>CSS Selector</h1>
+    <hr />
+    <p class="odd">First Paragraph</p>
+    <ul>
+      <li class="odd">순대</li>
+      <li class="even">떡볶이</li>
+      <li class="odd">탕수육</li>
+      <li class="even">무제한돈까스</li>
+      <li class="odd">피자+파스타</li>
+    </ul>
+    <br />
+    <h1>Element를 동적으로 넣었다가 뺐다가</h1>
+    <p>
+      Dom Tree는 동적으로 element를 넣을 수 있어 <br />
+      createElement, appendChild, removeChild
+    </p>
+    <a href="javascript:createDiv()">div생성</a>
+
+    <br />
+    <h1>Style 변경하기</h1>
+    <hr />
+    <p>나의 궁전에는 <span>식당이 16,000개 있어요</span></p>
+    <input type="button" value="New Style?" hobby="game" />
+  </body>
+  <script>
+    // getElementsByName, getElementsByClassName
+    // getElementById
+    // 위 이외에 일반 속성으로 가져오는 방법은
+    // querySelector("선택자") : 선택자에 해당하는 첫 번째 것
+    // querySelectorAll("선택자") : 선택자에 해당하는 모든 것
+
+    const li_odd = document.querySelectorAll("li.odd");
+    const li_even = document.querySelectorAll("li.even");
+    const li_all = document.querySelectorAll("li");
+
+    li_odd.forEach((a, b, c, d, e, f) => {
+      console.log(a);
+      console.log(b);
+      console.log(c);
+      console.log(d);
+      console.log(e);
+      console.log(f);
+    });
+
+    // li_odd.forEach((li, idx) => {
+    //   li.style.color = "red";
+    //   if (idx == 2) {
+    //     li.style.color = "crimson";
+    //   }
+    // });
+
+    // list 중 odd는 magenta, 다른 것은 violet 으로 출력하시오.
+    // li_all을 이용하시오
+
+    li_all.forEach((li, idx) => {
+      if (li.getAttribute("class") == "odd") {
+        li.style.color = "magenta";
+      } else {
+        li.style.color = "violet";
+      }
+    });
+
+    function createDiv() {
+      const div = document.createElement("div"); // <div></div>
+      div.innerHTML = "생성할 테니 닥달좀 그만";
+      document.body.appendChild(div);
+
+      div.addEventListener("dblclick", function () {
+        this.innerHTML = "야";
+        this.parentElement.removeChild(this);
+      });
+    }
+
+    const input = document.querySelector("input[value = 'New Style?']");
+    const span = document.getElementsByTagName("span")[0];
+
+    input.addEventListener("click", function (event) {
+      span.style.background = "darkblue";
+      span.style.color = "white";
+      span.style.fontSize = "32px";
+      span.style.border = "3px dotted lightgreen";
+      span.style.display = "inline-block";
+      span.style.textAlign = "center";
+    });
+  </script>
+</html>

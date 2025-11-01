@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Table</title>
+  </head>
+  <body>
+    <table border="1" width="100%">
+      <tr height="50">
+        <th width="50">Name</th>
+        <th>Age</th>
+      </tr>
+      <tr align="center">
+        <td width="50%">Apple</td>
+        <td>100</td>
+      </tr>
+      <tr align="right">
+        <td>Melon</td>
+        <td>2</td>
+      </tr>
+    </table>
+    <br /><br />
+    <table border="3" width="100%">
+      <caption>
+        rowspan<br />colspan
+      </caption>
+      <tr>
+        <th colspan="2">head1</th>
+        <th>head2</th>
+      </tr>
+      <tr>
+        <td>data1</td>
+        <td>data2</td>
+        <td rowspan="2">data3</td>
+      </tr>
+      <tr>
+        <td>food1</td>
+        <td rowspan="100">food2</td>
+        <!-- data3이 차지 -->
+        <td>food3</td>
+      </tr>
+    </table>
+  </body>
+</html>

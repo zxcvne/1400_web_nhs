@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Transition</title>
+    <style>
+      .box {
+        width: 500px;
+        height: 50px;
+        margin: 10px auto;
+        background-color: #68f;
+        transition: all 0.5s ease-in-out, transform 2s;
+      }
+      .box1 {
+        opacity: 0.1;
+      }
+      .box2 {
+        opacity: 0.2;
+      }
+      .box3 {
+        opacity: 0.3;
+      }
+      .box4 {
+        opacity: 0.4;
+      }
+      .box5 {
+        opacity: 0.5;
+      }
+      .box6 {
+        opacity: 0.6;
+      }
+      .box7 {
+        opacity: 0.7;
+      }
+      .box8 {
+        opacity: 0.8;
+      }
+      .box9 {
+        opacity: 0.9;
+      }
+      .box:hover {
+        opacity: 1;
+        background-color: coral;
+        /* width: 50px; */
+        transform: scale(1.2); /*1.2배 커짐*/
+      }
+      .round {
+        width: 150px;
+        height: 150px;
+        margin: 5px auto;
+        font-size: 32px;
+        color: beige;
+        background-color: darkblue;
+        text-align: center;
+        line-height: 150px;
+        transition: transform 1s ease-in;
+      }
+      #wrap {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      #rotateX:hover {
+        background-color: purple;
+        transform: rotateX(180deg);
+      }
+      #rotateY:hover {
+        background-color: brown;
+        transform: rotateY(1440deg);
+      }
+      #skew:hover {
+        transform: skew(30deg, 20deg);
+      }
+      #skewX:hover {
+        transform: skewX(30deg);
+      }
+      #skewY:hover {
+        transform: skewY(20deg);
+      }
+      #translate:hover {
+        transform: translate(10px, 10px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+    <div class="box box4"></div>
+    <div class="box box5"></div>
+    <div class="box box6"></div>
+    <div class="box box7"></div>
+    <div class="box box8"></div>
+    <div class="box box9"></div>
+
+    <div id="wrap">
+      <div class="round" id="rotateX">rotX</div>
+      <div class="round" id="rotateY">rotY</div>
+      <div class="round" id="skew">skew</div>
+      <div class="round" id="skewX">skewX</div>
+      <div class="round" id="skewY">skewY</div>
+      <div class="round" id="translate">trans</div>
+    </div>
+  </body>
+</html>

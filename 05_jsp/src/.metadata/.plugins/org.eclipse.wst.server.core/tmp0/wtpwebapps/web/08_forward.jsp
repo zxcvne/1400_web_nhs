@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Forward</title>
+</head>
+<body>
+	<h1>Forward Action Tag</h1>
+	<hr>
+	<form action="08_controller.jsp">
+		<h2>이동할 페이지를 선택하시오</h2>
+		<select name ="site">
+			<option value="naver">네이버</option>
+			<option value="bugs">벅스뮤직</option>
+			<option value="nytimes">뉴욕타임즈</option>
+		</select>
+		<input type="submit" value="제출하기">
+	</form>
+</body>
+</html>

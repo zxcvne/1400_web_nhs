@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercise</title>
+  </head>
+  <body></body>
+  <script>
+    // 웹에서 이미지를 3장 내려받는다.
+    // 웹 페이지가 구동되면 사용자에게 1, 2, 3 하나를 선택하라고 한다
+    // 사용자가 입력한 값에 따라 <h1> ~ 번 이미지를 선택하셨습니다.</h1>
+    // 입력된 번호에 따라 이미지가 나오도록 개발한다.
+    result = prompt("1, 2, 3 중 하나의 값을 입력");
+    document.write("번호는 : " + result);
+    function printImage(result) {
+      if (result == 1 || result == 2 || result == 3) {
+        document.write("<h1>" + result + "번 이미지를 선택하셨습니다.");
+        var array = new Array();
+        array.push("./images/dog.png");
+        array.push("./images/dog-photoaidcom-greyscale.png");
+        array.push("./images/cat.jpg");
+        console.log(array[result - 1]);
+        console.log("<img src='" + array[result - 1] + "'>");
+        document.write("<img src='" + array[result - 1] + "'>");
+      } else {
+        console.log("똑바로 넣어주세요");
+      }
+    }
+    printImage(result);
+
+    // var choice = prompt("1,2,3번 이미지 중 몇번?");
+    // document.write("<h1>" + choice + "번을 선택하셨습니다. </h1>");
+
+    // var image;
+    // if (choice == 1) {
+    //   image = "image01.webp";
+    // } else if (choice == 2) {
+    //   image = "image02.jpg";
+    // } else if (choice == 3) {
+    //   image = "image03.png";
+    // }
+    // document.write('<img src="' + "./images/" + image + '">');
+
+    // var images = new Array();
+    // images.push("이미지 경로1");
+    // images.push("이미지 경로2");
+    // images.push("이미지 경로3");
+    // document.write('<img src="' + "./images/" + images[choice - 1] + '">');
+  </script>
+</html>

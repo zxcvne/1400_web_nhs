@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DOM2</title>
+  </head>
+  <body>
+    <h1>Get By Class</h1>
+    <hr />
+    <ul>
+      <li class="odd ddd first fff ggg"><strong>Fork Rib</strong></li>
+      <li>Starving</li>
+      <li class="odd">Ramen</li>
+      <li>Chicken Rice</li>
+      <li class="odd">Sausage, ConeDog</li>
+    </ul>
+  </body>
+  <script>
+    var oddElements = document.getElementsByClassName("odd");
+    console.log(oddElements);
+
+    for (let element in oddElements) {
+      console.log(element);
+      if (isNaN(parseInt(element))) {
+        break;
+      }
+
+      oddElements[element].style.color = "violet";
+    }
+
+    var oddElements2 = document.getElementsByClassName("first odd");
+    // 1. odd 또는 first 중 하나라도 있는 전체
+    // 2. odd와 first가 둘 다 있으면서 순서도 맞는 전체
+    // 3. odd와 first가 둘다 있으면서 순서는 무관한 전체 (O)
+    console.log("Final Result");
+    console.log(oddElements2);
+    oddElements2[0].style.color = "skyblue";
+    oddElements2[0].style.background = "black";
+    oddElements2[0].style.fontSize = "32px";
+    oddElements2[0].innerHTML = "<em><strong> 너도 굶어 </strong></em>";
+  </script>
+</html>

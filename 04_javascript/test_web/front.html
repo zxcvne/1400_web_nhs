@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/logo.png" />
+    <title>Developer</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(128, 128, 128, 0.518);
+        position: relative;
+      }
+      .container {
+        width: 80%;
+        margin: 50px auto;
+        position: relative;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .logo {
+        width: 90px;
+        height: 90px;
+        border: 3px solid #333;
+        border-radius: 20px;
+        overflow: hidden;
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .logo:hover {
+        cursor: pointer;
+      }
+      .logo img {
+        width: 120px;
+        height: 120px;
+      }
+      #logo {
+        margin-left: 80px;
+        margin-bottom: 0px;
+        justify-content: left;
+      }
+      #logo:hover {
+        cursor: pointer;
+      }
+      .link-box {
+        display: flex;
+      }
+
+      .link-box ul {
+        padding: 5px;
+        list-style: none;
+      }
+      .link a {
+        text-decoration: none;
+        color: #333;
+        padding: 0px 10px;
+        font-weight: 500;
+      }
+      .link a:hover {
+        color: navy;
+      }
+      .flex-container {
+        display: flex;
+        width: auto;
+      }
+
+      .main {
+        width: 60%;
+        border: 5px solid #333;
+        border-right: none;
+        border-bottom: none;
+        background-color: #fff;
+      }
+      .main > form {
+        box-sizing: border-box;
+        padding: 30px;
+      }
+      .main > form > h1 {
+        padding-bottom: 10px;
+      }
+      .aside {
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-around; */
+        width: 40%;
+        border: 5px solid #333;
+        border-bottom: none;
+        background-color: #fff;
+      }
+      .aside .art {
+        padding: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        /* display: flex; */
+      }
+      .art-header {
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+      }
+
+      .art-header > h1 {
+        margin-top: 10px;
+        overflow: hidden;
+      }
+
+      .art-header > button {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
+        border: 3px solid #333;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgb(35, 128, 35);
+      }
+
+      .art-header > button p {
+        font-size: 12px;
+        font-weight: 100;
+      }
+      .art-header > button:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transform: skew(-5deg);
+        background-color: rgb(63, 107, 63);
+      }
+      .art-header > button > a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 32px;
+      }
+      .section {
+        padding: 10px;
+        border: 5px solid #333;
+        border-bottom: none;
+        background-color: #fff;
+        display: flex;
+        overflow: hidden;
+      }
+      .banner {
+        background-color: #d9d9d9;
+        box-shadow: 5px 5px 5px gray;
+        /* padding: 10px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        border: 3px solid #333;
+        border-radius: 10px;
+      }
+      .banner > img {
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 800px;
+        height: 400px;
+      }
+      .banner > .btn {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 50%;
+        padding: 10px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0.001);
+        /* border: 3px solid #333; */
+        /* border-radius: 50%; */
+      }
+      .banner > .btn-l {
+        left: 0px;
+        display: none;
+      }
+      .banner > .btn-r {
+        right: 0px;
+      }
+
+      .banner .btn:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+      }
+      .section > p {
+        box-sizing: border-box;
+        margin: 20px;
+      }
+      .footer {
+        border: 5px solid #333;
+        box-sizing: border-box;
+        display: flex;
+        background-color: #fff;
+        padding: 10px;
+      }
+      .footer > .link2 > a {
+        margin-left: 50px;
+      }
+      .text-area-main {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .end-page {
+        float: right;
+      }
+      .mv-logo {
+        border: 5px solid #333;
+        border-radius: 50%;
+        padding: 8px;
+        color: blue;
+        text-decoration: none;
+        position: fixed;
+        bottom: 10px;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+      }
+
+      .mv-logo:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        background-color: #d9d9d9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo"><img src="./images/logo.png" alt="" /></div>
+        <h1 id="logo">&lt;Frontend&gt;</h1>
+        <div class="link">
+          <a href="" class="preference"><span>Preferences</span></a>
+          <a href="./login.html" class="login" target="_self"
+            ><span>Login</span></a
+          >
+          <a href="back.html" class="preference"><span>Backend</span></a>
+          <a href="" class="preference"><span>DB</span></a>
+          <a href="" class="preference"><span>Server</span></a>
+          <a href="" class="preference"><span>devOps</span></a>
+        </div>
+      </div>
+
+      <div class="flex-container">
+        <div class="main">
+          <form action="">
+            <h1>HTML&CSS, JavaScript</h1>
+            <p>
+              &lt;tag&gt;Lorem ipsum dolor sit amet consectetur adipisicing
+              elit.&lt;/tag&gt;
+            </p>
+            <input type="text" name="search" /><br />
+            <label for="rdo">
+              <input type="radio" name="box" id="rdo" />&nbsp;This is
+              radio</label
+            ><br />
+            <label for="cbox">
+              <input type="checkbox" name="box" id="cbox" />&nbsp;This is
+              checkbox</label
+            ><br />
+            <button type="button">button</button>
+            <button type="reset">reset</button>
+            <br />
+            <input type="number" name="" id="" placeholder="only number" />
+            <button type="submit">submit</button>
+            <div class="text-area-main">
+              <h3>
+                <br />
+                <mark>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </mark>
+              </h3>
+              <div class="link-box">
+                <ul>
+                  <li>
+                    <a href="">link1</a>
+                  </li>
+                  <li>
+                    <a href="">link2</a>
+                  </li>
+                  <li>
+                    <a href="">link3</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="">link4</a>
+                  </li>
+                  <li>
+                    <a href="">link5</a>
+                  </li>
+                  <li>
+                    <a href="">link6</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="">link7</a>
+                  </li>
+                  <li>
+                    <a href="">link8</a>
+                  </li>
+                  <li>
+                    <a href="">link9</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- aside -->
+        <div class="aside">
+          <div class="art">
+            <div class="art-header">
+              <h1>New Library</h1>
+              <button>
+                <a href="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    font-weight="900"
+                    fill="currentColor"
+                    class="bi bi-download"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"
+                    />
+                    <path
+                      d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"
+                    />
+                  </svg>
+                  Download
+                  <p>v0.0.0</p>
+                </a>
+              </button>
+            </div>
+            <hr />
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+              molestias at dolor similique, perspiciatis laboriosam magnam enim
+              id mollitia illo hic optio eum vitae, facilis minima nostrum neque
+              sed distinctio? Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Tempore, molestias at dolor similique, perspiciatis
+              laboriosam magnam enim id mollitia illo hic optio eum vitae,
+              facilis minima nostrum neque sed distinctio?
+            </p>
+          </div>
+          <!-- <div class="art">
+            
+          </div> -->
+        </div>
+      </div>
+      <div class="section">
+        <div class="banner">
+          <img src="" alt="이미지" id="banner" />
+          <button id="lBtn" class="btn btn-l" onclick="lBtn()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-caret-left-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"
+              />
+            </svg>
+          </button>
+          <button id="rBtn" class="btn btn-r" onclick="rBtn()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              fill="currentColor"
+              class="bi bi-caret-right-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+              />
+            </svg>
+          </button>
+        </div>
+        <p>
+          <ins
+            ><em>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              velit consectetur incidunt deserunt, sed ea rem voluptates iure
+              ipsum, vel, tenetur necessitatibus numquam corrupti animi earum
+              rerum aliquid sit eligendi!
+            </em>
+          </ins>
+          <ins
+            ><em>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              velit consectetur incidunt deserunt, sed ea rem voluptates iure
+              ipsum, vel, tenetur necessitatibus numquam corrupti animi earum
+              rerum aliquid sit eligendi!
+            </em>
+          </ins>
+          <ins
+            ><em>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              velit consectetur incidunt deserunt, sed ea rem voluptates iure
+              ipsum, vel, tenetur necessitatibus numquam corrupti animi earum
+              rerum aliquid sit eligendi!
+            </em>
+          </ins>
+          <ins
+            ><em>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+            </em>
+          </ins>
+        </p>
+      </div>
+      <div class="footer">
+        <div class="link2">
+          <a href="">link10</a>
+          <a href="">link11</a>
+          <a href=""><del>link12</del></a>
+          <a href="">link13</a>
+          <a href="">link14</a>
+          <a href="">link15</a>
+          <a href="">link16</a>
+          <a href=""><b>link17</b></a>
+          <a href="">link18</a>
+          <a href="">link19</a>
+          <a href="">link20</a>
+        </div>
+      </div>
+      <div class="text">
+        <p>
+          <b>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+            aliquam reiciendis laudantium architecto! Dolor deleniti tenetur
+            consequuntur vel eaque, natus quos recusandae quis dolores ducimus
+            veniam exercitationem fugiat deserunt dolorem.
+          </b>
+        </p>
+        <div class="end-page"><h1>&lt;/Frontend&gt;</h1></div>
+      </div>
+    </div>
+    <a href="#logo" class="mv-logo"
+      ><svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        fill="currentColor"
+        class="bi bi-arrow-up-short"
+        viewBox="0 0 16 16"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5"
+        />
+      </svg>
+    </a>
+  </body>
+  <script>
+    const banner = document.getElementById("banner");
+    var lbtn = document.getElementById("lBtn");
+    var rbtn = document.getElementById("rBtn");
+    var banner_num = 0;
+    var imgs = new Array();
+
+    imgs.push("html.jpg");
+    imgs.push("css.jpg");
+    imgs.push("js.jpg");
+    imgs.push("jQuery.jpg");
+    imgs.push("vuejs.jpg");
+    imgs.push("react.jpg");
+    imgs.push("nodejs.jpg");
+    banner.src = "./images/" + imgs[0];
+
+    function lBtn() {
+      rbtn.style.display = "flex";
+      if (banner_num > 0) {
+        banner_num--;
+      }
+      if (banner_num == 0) {
+        lbtn.style.display = "none";
+      }
+      banner.src = "./images/" + imgs[banner_num];
+    }
+
+    function rBtn() {
+      lbtn.style.display = "flex";
+      if (banner_num < imgs.length - 1) {
+        banner_num++;
+      }
+      banner.src = "./images/" + imgs[banner_num];
+      if (banner_num == imgs.length - 1) {
+        rbtn.style.display = "none";
+      }
+    }
+  </script>
+</html>

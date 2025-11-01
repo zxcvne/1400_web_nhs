@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cookie and Session</title>
+</head>
+<body>
+	<h1>Cookie and Session</h1>
+	<hr>
+	<form name ="myForm">
+		<input type="text" name="customer">
+		<input type="button" value="Set Cookie" onclick="setCookie()" >		
+		<input type="button" value="Get Cookie" onclick="getCookie()" >
+		<br>		
+		<input type="text" name="email">
+		<input type="button" value="Set Session" onclick="setSession()" >		
+		<input type="button" value="Get Session" onclick="getSession()" >
+	</form>
+	<div id="result"></div>
+</body>
+<script>
+	function setCookie() {
+		cookieValue = document.myForm.customer.value;
+		console.log("customer : " + cookieValue);
+		document.cookie = "customer=" + cookieValue + "; customer2=" + cookieValue;
+	}
+</script>
+</html>

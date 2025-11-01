@@ -1,0 +1,24 @@
+package calc;
+
+import java.util.Scanner;
+
+public class HexCalc {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String menu = "y";
+		while(menu.equals("n")) {
+			switch(menu) {
+			case "y": break;
+			case "n": break;
+			default: 
+				
+			}
+			
+		}
+		
+	} // main
+
+}

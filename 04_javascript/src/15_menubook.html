@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>메뉴판</title>
+  </head>
+  <body>
+    <h1>메뉴판 등록/취소</h1>
+    <hr />
+    <fieldset>
+      <legend>Menu Registration</legend>
+      name : <input type="text" id="name" /> price :
+      <input type="text" id="price" />
+      <input type="button" value="Add Menu" onclick="addMenu()" />
+    </fieldset>
+    <div id="menubook"></div>
+  </body>
+  <script>
+    var menu = new Array();
+    var item = new Object();
+
+    // menu에 등록하는 메서드
+    function addMenu() {
+      var name = document.getElementById("name").value;
+      var price = document.getElementById("price").value;
+      item = new Object();
+      item.name = name;
+      item.price = price;
+      menu.push(item);
+      console.log(menu);
+
+      document.getElementById("name").value = "";
+      document.getElementById("price").value = "";
+      refreshMenu();
+    }
+
+    function refreshMenu() {
+      var menubook = document.getElementById("menubook");
+      var str = "<ul>";
+
+      // menu의 개수만큼 리스트에 추가
+      for (let i = 0; i < menu.length; i++) {
+        str += "<li onclick='removeMenu(" + i + ")'>";
+        str += menu[i].name + "-" + menu[i].price;
+        str += "</li>";
+      }
+      str += "</ul>";
+      console.log(str);
+      menubook.innerHTML = str;
+    }
+
+    // splice(i, n) : i번 인덱스부터 n개 삭제
+    function removeMenu(i) {
+      menu.splice(i, 1);
+      refreshMenu();
+    }
+  </script>
+</html>

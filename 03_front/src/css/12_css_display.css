@@ -1,0 +1,51 @@
+body > div {
+  background-color: goldenrod;
+}
+body > p {
+  background-color: chocolate;
+}
+
+.div01 {
+  width: 300px;
+  height: 150px;
+  background-color: pink;
+  margin-bottom: 10px;
+}
+
+.div02 {
+  /* display: inline; */
+  width: 300px;
+  height: 150px;
+  background-color: darkkhaki;
+  margin-bottom: 10px;
+  text-align: center;
+  line-height: 150px;
+}
+
+.span01 {
+  width: 300px;
+  height: 150px;
+  background-color: pink;
+}
+
+.span02 {
+  width: 300px;
+  height: 150px;
+  background-color: darkorange;
+}
+
+.span03 {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.span04 {
+  display: inline-block; /*다른 애랑 같이 있을 수 있으면서 높이랑 너비가 생김*/
+  height: 150px;
+  background-color: lavender;
+  font-family: "Verdana";
+}
+
+.parent {
+  display: flex;
+  background-color: beige;
+}

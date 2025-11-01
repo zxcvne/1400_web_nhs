@@ -1,0 +1,56 @@
+package calc;
+
+import java.util.HexFormat;
+import java.util.Scanner;
+
+public class HexCalc {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		HexCalcController hc = new HexCalcController();
+		
+		
+		while(true) {
+			String menu = hc.choiceMenu(sc);
+			
+			if(menu.equals("y")) 
+				hc.calc(sc);
+			else if(menu.equals("n")) {
+				System.out.println("종료"); break;
+			}
+			else
+				System.out.println("error");
+		}
+			
+		
+		
+	} // main
+
+}
+
+class HexCalcController {
+	
+	private int num1;
+	private int num2;
+	public String choiceMenu(Scanner sc) {
+		System.out.println("HexCalc (y/n)");
+		System.out.println(">");
+		return sc.next();
+	}
+	
+	public void calc(Scanner sc) {
+		// TODO Auto-generated method stub
+		num1 = sc.nextInt();
+		num2 = sc.nextInt();
+		
+		String hexNum1 = Integer.toHexString(num1);
+		String hexNum2 = Integer.toHexString(num2);
+		
+		System.out.println(num1);
+		System.out.println(num2);
+	}
+	
+	
+	
+}

@@ -1,0 +1,41 @@
+package web;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@WebServlet("/Order")
+public class OrderServlet extends HttpServlet {
+
+	public OrderServlet() {
+		super();
+		System.out.println("OrderServlet Created");
+	}
+	
+	protected void doGet(HttpServletRequest req, HttpServletResponse res) 
+		throws ServletException, IOException {
+		
+		res.setContentType("text/html; charset=UTF-8");
+		
+		// request에서 parameter(데이터)를 꺼내는 방법
+		String food = req.getParameter("ramen");
+		String price = req.getParameter("price");
+		String loc = req.getParameter("location");
+		
+		PrintWriter out = res.getWriter();
+		out.println("<html><body>");
+		out.println("<h2>" + food + "(" + loc + ")" + "</h2>");
+		if(loc.equals("융프라우")) {
+			out.println("<h2>총 금액 : " + Integer.parseInt(price)*10 + "원</h2>" );
+		}else {
+			out.println("<h2> 총 금액 : " + price + "</h2>");
+		}
+		
+	}
+	
+}

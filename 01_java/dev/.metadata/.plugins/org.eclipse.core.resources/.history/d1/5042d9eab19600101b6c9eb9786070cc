@@ -1,0 +1,37 @@
+package calc;
+
+import java.util.Scanner;
+
+public class HexCalc {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		HexCalcController hc = new HexCalcController();
+		
+		String menu = "y";
+		while(menu.equals("n")) {
+			switch(menu) {
+			case "y": hc.calc(sc); break;
+			case "n": break;
+			default: 
+				
+			}
+			
+		}
+		
+	} // main
+
+}
+
+class HexCalcController {
+	
+	private String num1;
+	private String num2;
+	public void calc(sc) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}

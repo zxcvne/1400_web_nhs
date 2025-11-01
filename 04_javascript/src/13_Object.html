@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <h1>Javascript Object</h1>
+    <hr />
+  </body>
+  <script>
+    // create Object I
+    var account1 = {
+      owner: "이선생",
+      code: "2132",
+      balance: 10000,
+      deposit: function (money) {
+        balance += money;
+      },
+      withdraw: function (money) {
+        balance - +money;
+      },
+      getBalance: function () {
+        return balance;
+      },
+    };
+
+    var account2 = new Object();
+
+    account2.owner = "바르다김선생";
+    account2.balance = 50;
+    account2.deposit = deposit;
+
+    function deposit(money) {
+      this.balance += money;
+    }
+
+    account2.deposit(50000);
+    document.write("<h1>" + account2 + "</h1>");
+    document.write(account2.balance);
+
+    // complex(다중)
+    guest1 = { name: "Devenham", age: 25 };
+    guset2 = { name: "Conan", age: 10 };
+
+    orientExpress = new Object();
+    orientExpress.passenger1 = guest1;
+    orientExpress.passenger2 = guset2;
+    console.log(orientExpress);
+
+    document.write(
+      "<h1>Passenger1의 이름 : " + orientExpress.passenger1.name + "<h1>"
+    );
+  </script>
+</html>

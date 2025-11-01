@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+	<provider id="mysql">
+		<driver id="mariaDB" categories="sql" name="MariaDB" class="org.mariadb.jdbc.Driver" url="jdbc:mariadb://{host}[:{port}]/[{database}]" port="3306" defaultUser="root" description="MariaDB JDBC driver" custom="false">
+			<library type="jar" path="maven:/org.mariadb.jdbc:mariadb-java-client:RELEASE" custom="false" version="3.5.2">
+				<file id="org.mariadb.jdbc:mariadb-java-client:RELEASE" version="3.5.2" path="${drivers_home}\maven\maven-central\org.mariadb.jdbc\mariadb-java-client-3.5.2.jar" crc="df444d64"/>
+			</library>
+			<library type="license" path="licenses/external/lgpl-2.1.txt" custom="false"/>
+		</driver>
+	</provider>
+	<provider id="oracle">
+		<driver id="oracle_thin" categories="sql" name="Oracle" class="oracle.jdbc.OracleDriver" url="jdbc:oracle:thin:@{host}[:{port}]/{database}" port="1521" defaultDatabase="ORCL" defaultUser="system" description="Oracle JDBC driver" custom="false">
+			<library type="jar" path="maven:/com.oracle.database.jdbc:ojdbc11:RELEASE" custom="false" version="23.2.0.0">
+				<file id="com.oracle.database.jdbc:ojdbc11:RELEASE" version="23.2.0.0" path="${drivers_home}\maven\maven-central\com.oracle.database.jdbc\ojdbc11-23.2.0.0.jar" crc="5e1ede31"/>
+			</library>
+			<library type="jar" path="maven:/com.oracle.database.nls:orai18n:RELEASE" custom="false" version="23.2.0.0">
+				<file id="com.oracle.database.nls:orai18n:RELEASE" version="23.2.0.0" path="${drivers_home}\maven\maven-central\com.oracle.database.nls\orai18n-23.2.0.0.jar" crc="60176666"/>
+			</library>
+			<library type="jar" path="maven:/com.oracle.database.xml:xdb6:RELEASE" custom="false" version="18.3.0.0">
+				<file id="com.oracle.database.xml:xdb6:RELEASE" version="18.3.0.0" path="${drivers_home}\maven\maven-central\com.oracle.database.xml\xdb6-18.3.0.0.jar" crc="f7b54a9"/>
+				<file id="com.oracle.database.xml:xmlparserv2:18.3.0.0" version="18.3.0.0" path="${drivers_home}\maven\maven-central\com.oracle.database.xml\xmlparserv2-18.3.0.0.jar" crc="adfe7b96"/>
+			</library>
+			<library type="jar" path="maven:/com.oracle.database.xml:xmlparserv2:RELEASE" custom="false" version="23.2.0.0">
+				<file id="com.oracle.database.xml:xmlparserv2:RELEASE" version="23.2.0.0" path="${drivers_home}\maven\maven-central\com.oracle.database.xml\xmlparserv2-23.2.0.0.jar" crc="e73661f2"/>
+			</library>
+		</driver>
+	</provider>
+</drivers>

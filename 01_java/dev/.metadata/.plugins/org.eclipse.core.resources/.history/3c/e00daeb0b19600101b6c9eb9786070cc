@@ -1,0 +1,18 @@
+package calc;
+
+import java.util.Scanner;
+
+public class HexCalc {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int menu = 0;
+		do {
+			
+		}while()
+		
+	} // main
+
+}

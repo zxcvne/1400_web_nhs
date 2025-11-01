@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Position</title>
+    <style>
+      body > div > div {
+        width: 200px;
+        height: 200px;
+        background-color: lemonchiffon;
+        border: 1px solid orange;
+        border-radius: 100px;
+        font-size: 20px;
+        text-align: center;
+        line-height: 200px;
+      }
+
+      .relative {
+        /* 내가 있어야 할 곳 기준으로 위치 지정 */
+        position: relative;
+        top: -160px;
+        left: 150px;
+        background-color: rgb(255, 0, 0);
+        z-index: 3; /*높을수록 상위*/
+      }
+
+      .absolute {
+        /* 나를 감싸고 있는 fixed 속성의 부모 기준 */
+        position: absolute;
+        top: 100px;
+        left: 150px;
+        background-color: yellow;
+        z-index: 2;
+      }
+
+      .wrap {
+        position: fixed;
+        border: 3px dotted purple;
+        top: 100px;
+        left: 20px;
+      }
+      .fixed {
+        /*body영역 기준*/
+        position: fixed;
+        top: 80px;
+        left: 170px;
+        background-color: skyblue;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Layout - Position</h1>
+    <hr />
+    <div class="wrap">
+      <div class="static">static(default)</div>
+      <div class="static">static2(default)</div>
+      <div class="relative">relative</div>
+      <div class="fixed">fixed</div>
+      <div class="absolute">absolute</div>
+    </div>
+  </body>
+</html>

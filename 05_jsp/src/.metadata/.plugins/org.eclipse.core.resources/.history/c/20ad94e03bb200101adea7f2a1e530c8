@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Param Response</title>
+</head>
+<body>
+<%
+	String id = request.getParameter("id");
+	String treat = null;
+	
+	if(id.equals("admin")){
+		treat ="정성을 다해 모심";
+	}else {
+		treat ="내쫓음";
+	}
+%>
+</body>
+</html>

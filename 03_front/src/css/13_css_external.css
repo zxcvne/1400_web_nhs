@@ -1,0 +1,55 @@
+.box1 {
+  width: 200px;
+  height: 100px;
+  background-color: rebeccapurple;
+}
+.box2 {
+  width: 200px;
+  height: 100px;
+  background-color: chartreuse;
+}
+
+.box3,
+.box4,
+.box5 {
+  width: 100px;
+  height: 100px;
+  margin: 0px 10px;
+}
+
+.box3 {
+  background-color: green;
+}
+.box4 {
+  background-color: crimson;
+}
+.box5 {
+  background-color: skyblue;
+}
+
+.flex-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.box-align-1 {
+  /* 모든 요소들 좌우에 여유 공간을 두고 배치 */
+  justify-content: space-around;
+}
+.box-align-2 {
+  /* 모든 요소들 사이의 거리를 동일하게 배치 */
+  justify-content: space-evenly;
+}
+.box-align-3 {
+  /* 맨 왼쪽과 오른쪽 여백은 없이, 요소 간은 동일하게 배치  */
+  justify-content: space-between;
+}
+.box-align-4 {
+  /* 중앙 정렬 - 컨텐츠 사이의 간격은 margin으로 조정 */
+  justify-content: center;
+}
+.box-align-5 {
+  /* 오른쪽 정렬 */
+  /* justify-content: right; */
+  justify-content: end;
+}

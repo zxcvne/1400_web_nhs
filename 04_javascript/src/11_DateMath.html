@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Date&Math</title>
+  </head>
+  <body>
+    <h1>Date & Math</h1>
+  </body>
+  <script>
+    // Date
+    var now = new Date();
+    document.write("<h2>now : " + now + "</h2>");
+    console.log(now);
+    document.write("<h2>year : " + now.getFullYear() + "</h2>");
+
+    // month는 0월 부터 시작이라 1을 더해줘야 함
+    document.write("<h2>month : " + (now.getMonth() + 1) + "</h2>");
+    document.write("<h2>millsec : " + now.getMilliseconds() + "</h2>");
+
+    var current = now.getMilliseconds() % 4;
+    if (current == 0) document.body.style.background = "violet";
+    else if (current == 1) document.body.style.background = "lightskyblue";
+    else if (current == 2) document.body.style.background = "lime";
+    else if (current == 3) document.body.style.background = "deeppink";
+
+    // Math
+    document.write("<h2>임의의 수 뽑기 : " + Math.random() + "</h2>");
+    document.write(
+      "<h2>내림과 올림 : " + Math.floor(3.4) + "," + Math.ceil(3.4) + "</h2>"
+    );
+
+    // N 이하의 정수를 뽑는 함수 만들기
+    // random()은 0부터 1까지 소수를 리턴하는 함수
+    // random()과 floor()를 이용하여 1부터 N까지의 정수를 뽑는 함수를 만드시오
+    function getRandom(N) {
+      // 1부터 N까지 중 1개를 리턴한다.
+      return Math.floor(Math.random() * N) + 1;
+    }
+    document.write("<h2>초월의 투구가 드랍되었습니다</h2>");
+    document.write("<h2>당신의 주사위(1-100) : " + getRandom(100) + "</h2>");
+  </script>
+</html>

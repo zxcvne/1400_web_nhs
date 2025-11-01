@@ -1,0 +1,113 @@
+package day04;
+
+import java.util.Random;
+
+import utils.Mu;
+
+public class ConditionEx {
+
+	public static void main(String[] args) {
+		// TODO Auto_generated method stub
+		Mu.p(Mu.RED + "IF Example" + Mu.END);
+		Random rd = new Random();
+		int num = rd.nextInt(151); // 0~150
+		Mu.p("Current Num : " + num); 
+//		Mu.p("" + num); // 문자열 됨
+		
+		if(num > 100) // 문장이 한줄이면 중괄호 생략 가능
+			Mu.p("매우 큰 수");
+		else if(num > 50) 
+			Mu.p("적당히 큰 수");			
+		else 
+			Mu.p("허접");
+		
+		// nested
+		int eng = rd.nextInt(101);
+		int math = rd.nextInt(101);
+		
+		// 영어와 수학 점수가 모두 60점 이상이면 pass, 아니면 Fail을 출력하시오.
+		// 영어 : **점, 수학 : **점, Pass || Fail
+
+		if(eng >= 60 && math >= 60) 
+			Mu.p("영어: " + eng + ", "+"수학: " + math + Mu.BLUE + " pass"+ Mu.END);
+		else 
+			Mu.p("영어: " + eng + ", "+"수학: " + math + Mu.RED + " Fail"+ Mu.END);
+		
+		// 수업 방법 1
+//		String pf = "Fail";
+//		
+//		if(eng>=60)
+//			if(math>=60)
+//				pf = "pass";
+//
+//		Mu.p("영어: " + eng + ", "+"수학: " + math + pf);
+		
+		String pf = "";
+//		int eng = rd.nextInt(101);
+//		int math = rd.nextInt(101);
+		pf =(eng >= 60 && math >= 60)? "Pass" : "Fail";
+		Mu.p("영어: " + eng + ", "+"수학: " + math +" "+ pf);
+		
+		Mu.p("");
+		Mu.p("Switch Example");
+		
+		int i = rd.nextInt(3); // 0, 1, 2 중 하나
+		
+		switch(i) {
+		case 0: 
+			Mu.p("꽝입니다.");
+			break;
+		case 1:
+			Mu.p(Mu.RED + "1등입니다!!!! 상금: 1000원!  " + Mu.END);
+			break;
+		case 2:
+			Mu.p(Mu.BLUE + "2등입니다! 상금: 100원" + Mu.END);
+			break;
+		default:
+			Mu.p("에러가 발생..");
+		}
+		
+		// 의도적으로 break를 빼는 경우
+		// 아래 단계의 작업이 상위 작업을 반드시 거쳐야 되는 경우
+		// 작업간 포함개념이 있을 때 제한적으로 유용
+		
+		int workProcess = rd.nextInt(4);
+		Mu.p("앞으로의 작업 단계"+workProcess);
+		
+		switch(workProcess) {
+		case 0:
+			Mu.p("step1: 작업단계");
+		case 1:
+			Mu.p("step2: 개발준비");
+		case 2:
+			Mu.p("step3: 개발완료");
+		case 3:
+			Mu.p("step4: 출시준비");
+		}
+		
+//		if statement로 구현하면
+//		if(workProcess == 0) {
+//			Mu.p("step1: 작업단계");
+//			Mu.p("step2: 개발준비");
+//			Mu.p("step3: 개발완료");
+//			Mu.p("step4: 출시준비");
+//		}
+//		else if(workProcess == 1) {
+//			Mu.p("step2: 개발준비");
+//			Mu.p("step3: 개발완료");
+//			Mu.p("step4: 출시준비");
+//		}
+//		else if(workProcess == 2) {
+//			Mu.p("step3: 개발완료");
+//			Mu.p("step4: 출시준비");
+//		}
+//		else {
+//			Mu.p("step4: 출시준비");
+//			}
+		
+		
+				
+		
+	}// main
+
+}// class

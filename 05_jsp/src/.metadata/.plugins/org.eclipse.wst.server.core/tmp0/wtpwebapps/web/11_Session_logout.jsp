@@ -1,0 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+ <% 
+ 	session.invalidate(); // 모든 세션 속성 삭제
+ 	// session.removeAttribute("userid"); // 세션의 특정 속성만 삭제
+ 	response.sendRedirect("11_Session.jsp");
+ %>

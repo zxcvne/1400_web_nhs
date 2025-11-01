@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Struck</title>
+  </head>
+  <style>
+    @import url(reset.css);
+    body {
+      text-align: center;
+      width: 100%;
+      height: 100vw;
+    }
+    h1 {
+      margin: 50px;
+      font-size: 32px;
+      font-weight: 700;
+    }
+    .container {
+      margin: 0 auto;
+      border: 1px solid #333;
+      border-radius: 10px;
+      width: 600px;
+      height: 800px;
+      overflow: hidden;
+    }
+    .container div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .aside {
+      float: left;
+      width: 200px;
+      height: 100%;
+      box-sizing: border-box;
+      border-right: 1px solid #333;
+    }
+    .header {
+      float: right;
+      border-bottom: 1px solid #333;
+      width: 400px;
+      height: 35%;
+    }
+    .section {
+      float: left;
+      height: 65%;
+      width: 200px;
+      border-right: 1px solid #333;
+      box-sizing: border-box;
+    }
+    .box-1 {
+      float: right;
+      width: 200px;
+      height: 32.5%;
+      border-bottom: 1px solid #333;
+    }
+    .box-2 {
+      float: right;
+      width: 200px;
+      height: 32.5%;
+    }
+  </style>
+  <body>
+    <h1>Struck</h1>
+    <div class="container">
+      <div class="aside">매출</div>
+      <div class="header">변동비</div>
+      <div class="section">한계수익</div>
+      <div class="box-1">고정비</div>
+      <div class="box-2">이익</div>
+    </div>
+  </body>
+</html>

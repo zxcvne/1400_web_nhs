@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Controller</title>
+</head>
+<body>
+<%
+	String site = request.getParameter("site");
+	System.out.println("Site : " + site);
+	
+	String url = null;
+	if(site.equals("naver")){
+		url = "08_forward_naver.jsp";
+	}else if(site.equals("bugs")){
+		url = "08_forward_bug.jsp";
+	}else if(site.equals("nytimes")){
+		url = "08_forward_bug.jsp";
+	}
+%>
+<jsp:forward page="<%=url %>"/>
+</body>
+</html>

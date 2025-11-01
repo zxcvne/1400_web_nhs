@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;day11.Generic&apos; to &apos;Generic2&apos;&#x0D;&#x0A;- Original project: &apos;Web&apos;&#x0D;&#x0A;- Original element: &apos;day11.Generic&apos;&#x0D;&#x0A;- Renamed element: &apos;day11.Generic2&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Generic&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;day11{Generic.java[Generic" matchStrategy="1" name="Generic2" qualified="false" references="true" similarDeclarations="false" stamp="1754198133098" textual="false" version="1.0"/>
+</session>

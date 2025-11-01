@@ -1,0 +1,23 @@
+package day04;
+
+public class ColorEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//	    -"\033[색상코드m" + 문장 + "\033[0m]"
+//	    - 색상코드
+//	        30 ~ 37: 일반색상
+//	        90 ~ 97: 밝은색상
+//	        40 ~ 47: 일반색상(바탕색)
+//	        100 ~ 107: 밝은색상(바탕색)
+		// AA라는 글자를 8색으로 나타내시오
+		// for문을 사용하여 AAAAAAAAAAAAAAAA
+		// 일반색 8색을 구현하시오
+		
+		for(int i = 30; i<38; i++) {
+			System.out.print("\033["+i+"m"+"AA"+"\033[0");
+		}
+		
+	}
+
+}

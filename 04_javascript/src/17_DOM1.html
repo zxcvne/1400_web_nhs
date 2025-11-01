@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h1>Name Property</h1>
+    <hr />
+    <form name="joinForm" id="abcdefg">
+      <div name="abdiv">
+        <input type="text" name="id" />
+        <input type="button" value="btn" name="abbutton" />
+      </div>
+      <div>
+        <input type="checkbox" name="lang" value="Java" />java
+        <input type="checkbox" name="lang" value="C" />c
+        <input
+          type="checkbox"
+          name="lang"
+          value="Javascript"
+          isPossible="X"
+        />javascript
+      </div>
+      <input type="button" value="checkAll" onclick="checkAll()" />
+    </form>
+  </body>
+  <script>
+    console.log(document.joinForm);
+    console.log(joinForm);
+    console.log(joinForm.abdiv); // name을 통한 직접 접근은 오직 인풋 계열에만 사용가능
+    console.log(joinForm.id);
+    console.log(joinForm.abbutton);
+
+    const checkboxes = document.getElementsByName("lang");
+    console.log(checkboxes);
+    checkboxes.forEach((checkbox, index) => {
+      console.log(index + ":" + checkbox.checked);
+    });
+
+    // for Test
+    checkboxes.forEach((a, b, c, d, e, f) => {
+      console.log(a);
+      console.log(b);
+      console.log(c);
+      console.log(d);
+      console.log(e);
+      console.log(f);
+    });
+
+    function checkAll() {
+      checkboxes.forEach((checkbox, index) => {
+        // 속성값을 가져오고 싶을 경우 getAttribute 사용
+        // 야매도 사용 가능
+        if (checkbox.getAttribute("isPossible") != "X") {
+          checkbox.checked = true;
+        }
+      });
+    }
+  </script>
+</html>

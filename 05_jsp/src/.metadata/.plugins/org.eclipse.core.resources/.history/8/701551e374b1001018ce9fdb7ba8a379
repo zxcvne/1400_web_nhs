@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JSP Example</title>
+</head>
+<body>
+	<h1>Script Tag</h1>
+	<hr>
+	<!-- JSP Declaration -->
+	<%!
+		int count = 10;
+		String makeLower(String data){
+			return data.toLowerCase();
+		}
+	%>
+	<br>
+	<table>
+	<tr><td>Hello</td></tr>
+	</table>
+	<!-- JSP Scriptlet --> 
+	<% 
+		out.println("This is My First JSP Code!! <br />");
+	%>
+	
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Banner</title>
+    <style>
+      .img > img {
+        width: 800px;
+        float: left;
+      }
+
+      .banner2 {
+        width: 4000px;
+        transition: transform 2s;
+      }
+
+      section.container {
+        width: 800px;
+        margin: 0px auto;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Change Image</h1>
+    <hr />
+    <div class="banner1">
+      <img id="myCanvas" width="800px" height="450px" />
+    </div>
+    <br />
+    <h1>Slide Image</h1>
+    <hr />
+    <section class="container">
+      <div class="banner2">
+        <div class="img"><img src="./images/img1.jpg" /></div>
+        <div class="img"><img src="./images/img2.jpg" /></div>
+        <div class="img"><img src="./images/img3.jpg" /></div>
+        <div class="img"><img src="./images/img4.jpg" /></div>
+        <div class="img"><img src="./images/img5.jpg" /></div>
+      </div>
+    </section>
+  </body>
+  <script>
+    // 1. Change Image
+    const img = document.getElementById("myCanvas");
+
+    var pics = new Array();
+    pics.push("img1.jpg");
+    pics.push("img2.jpg");
+    pics.push("img3.jpg");
+    pics.push("img4.jpg");
+    pics.push("img5.jpg");
+
+    img.src = "./images/" + pics[0];
+    var count = 1;
+    setInterval(function () {
+      img.src = "./images/" + pics[count % pics.length];
+      count++;
+    }, 2000);
+
+    // 2. banner
+    const banner2 = document.getElementsByClassName("banner2")[0];
+    var count2 = 0;
+
+    setInterval(function () {
+      if (count2 == 4) count2 = 0;
+      else count2++;
+
+      banner2.style.transform = "translate(-" + count2 * 800 + "px)";
+    }, 4000);
+  </script>
+</html>

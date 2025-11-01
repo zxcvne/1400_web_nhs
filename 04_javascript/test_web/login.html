@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/logo.png" />
+    <title>Developer</title>
+    <style>
+      /* oAuth */
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background-color: rgba(128, 128, 128, 0.555);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 50px;
+        width: 600px;
+        height: 600px;
+        background-color: #fff;
+        border: 5px solid #333;
+      }
+      .container > h1 {
+        font-size: 60px;
+      }
+      .log-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .key-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .log-box {
+        display: flex;
+      }
+
+      .key-area .id,
+      .pw {
+        border: 3px solid #333;
+        width: 300px;
+        height: 50px;
+        margin: 5px;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+      .id:hover {
+        cursor: pointer;
+        background-color: #d9d9d9;
+      }
+      .pw:hover {
+        cursor: pointer;
+        background-color: #d9d9d9;
+      }
+      .log-btn {
+        margin-top: 5px;
+        border: 3px solid #333;
+        box-sizing: border-box;
+        width: 110px;
+        height: 110px;
+        font-size: 16px;
+      }
+      .log-btn:hover {
+        cursor: pointer;
+        background-color: #d9d9d9;
+      }
+
+      .log-box-bottom {
+        box-sizing: border-box;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+      }
+      #checked_id {
+        margin-left: 5px;
+      }
+      .forgot {
+        text-decoration: none;
+        color: navy;
+      }
+      .oAuth {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .oAuth div {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 30px;
+        overflow: hidden;
+      }
+
+      .oAuth .google,
+      .kakao,
+      .naver,
+      .github {
+        box-sizing: border-box;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .oAuth div:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        /* box-shadow: 5px 5px 5px gray; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <div class="log-container">
+        <form action="" method="post" class="log-box">
+          <div class="key-area">
+            <input type="text" name="id" placeholder="ID" class="id" />
+            <input
+              type="password"
+              name="pw"
+              placeholder="Password"
+              class="pw"
+            />
+          </div>
+          <button type="submit" class="log-btn">login</button>
+        </form>
+        <div class="log-box-bottom">
+          <label for="checked_id">
+            <input type="checkbox" name="ckdId" id="checked_id" />
+            &nbsp;Save ID
+          </label>
+          <a href="" class="forgot">Forgot Your Password?</a>
+        </div>
+      </div>
+      <div class="oAuth">
+        <div><img src="./images/google.png" alt="구글" class="google" /></div>
+        <div><img src="./images/github.png" alt="깃허브" class="github" /></div>
+        <div><img src="./images/kakao.png" alt="카카오" class="kakao" /></div>
+        <div><img src="./images/naver.png" alt="네이버" class="naver" /></div>
+      </div>
+    </div>
+  </body>
+</html>

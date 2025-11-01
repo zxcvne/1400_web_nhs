@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Variable</title>
+  </head>
+  <body>
+    <h1>Javascript Variable</h1>
+  </body>
+  <script>
+    if (10 < 1) {
+      var data1 = 10; // 지역변수 같지만 전역변수
+    }
+    console.log("#1 : " + data1);
+
+    for (var i = 0; i < 10; i++) {
+      // 반복문에서 선언된 변수도 전역
+      console.log("바보야");
+    }
+    console.log("#2 : " + i);
+
+    // typeof
+    var x = 500.38;
+    console.log("#3 : " + typeof x);
+    x = "cuba";
+    console.log("#4 : " + typeof x);
+    x = 500;
+    var zz = 5000;
+
+    function f() {
+      var y;
+      x = 10;
+      y = 10;
+      z = 10;
+      zz = 5;
+      var zz;
+      zz = 10000;
+    }
+
+    f();
+    console.log("#5 : " + x);
+    // console.log("#6 : " + y);
+    console.log("#7 : " + z);
+    console.log("#8 : " + zz); // 왜 5000인가? -> Hoisting
+  </script>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>jQuery Example</title>
+  </head>
+  <body>
+    <h1>Vanilla Javascript vs. jQuery</h1>
+    <hr />
+    <div><input type="text" class="odd" value="1" /></div>
+    <div><input type="text" class="even" value="2" /></div>
+    <div><input type="text" class="odd" value="3" /></div>
+    <div>
+      <button onclick="change()">Pure Javascript</button>
+      <button
+        onclick="$('.even').css('border-color','blue')
+                                .css('border-radius', 7)
+                                .val('야')"
+      >
+        Amazing jQuery
+      </button>
+    </div>
+  </body>
+  <script src="./jquery-3.7.1.min.js"></script>
+  <script>
+    function change() {
+      var inputs = document.querySelectorAll(".odd");
+      inputs.forEach(function (input) {
+        input.style.borderColor = "red";
+      });
+    }
+  </script>
+</html>

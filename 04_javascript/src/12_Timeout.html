@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Timeout</title>
+  </head>
+  <body>
+    <div id="wrap"></div>
+  </body>
+  <script>
+    // setTimeout : 1회성
+    function formatYourPC() {
+      document.write("<h1>네 pc는 이제 포맷된다 </h1>");
+    }
+    // setTimeout(formatYourPC, 3000);
+
+    var div = document.getElementById("wrap"); // DOM 체험판
+
+    function formatYourPC2() {
+      var h2 = document.createElement("h2"); // <h2></h2>
+      h2.innerText = "너 진짜 이제 큰일났다.😒";
+      div.appendChild(h2);
+    }
+
+    var handler = setInterval(formatYourPC2, 2000);
+    console.log(handler);
+
+    // 20초 후에 반복 금지
+    setTimeout(function () {
+      clearInterval(handler);
+    }, 20000);
+  </script>
+</html>

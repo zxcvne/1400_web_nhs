@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>input</title>
+  </head>
+  <body>
+    <!-- 회원가입 -->
+    <h1>강제 가입을 환영합니다</h1>
+    <!-- <form action="05_input_ok.html" method="post"> // method default : get -->
+    <!-- method default : get -->
+    <form action="05_input_ok.html"> 
+      <p>
+        성명 &nbsp;&nbsp;
+        <input type="text" size="20" maxlength="12" name="name" />
+      </p>
+      <p>
+        <fieldset>
+            <legend>Gender</legend>
+            Man <input type="radio" checked name="Gender" value="M"> &nbsp;&nbsp;
+            Woman <input type="radio" name="Gender" value="F">
+        </fieldset>
+        <fieldset>
+            <legend>Hobby</legend>
+            Drive <input type="checkbox" checked name="hobby" value="D"> &nbsp;&nbsp;
+            Movie <input type="checkbox" name="hobby" value="M">
+        </fieldset>
+        <hr>
+        왜 가입하게 되셨을까요?
+        <select name="reason">
+            <option value="강제">강제로</option>
+            <option value="반강제">반강제로</option>
+            <option value="귀신">귀신에홀린듯</option>
+        </select>
+        <hr>
+        Satisfaction(상,중,하)
+        <input type="range" name="satis" value="1" min="1" max="3">
+        <hr>
+        Transportation(교통기관)
+        <input type="text" name="trans" list="trans">
+        <!-- datalist : 사용자가 특별한 글자를 입력하면 지정된 목록을 보여줌 -->
+        <datalist id="trans">
+            <option value="bus" label="버스타고다니냐고"></option>
+            <option value="metro" label=""></option>
+            <option value="taxi" label=""></option>
+        </datalist>
+
+        <input type="hidden" name="op" value="얘 속았네">
+
+
+      </p>
+      <input type="submit" value="submit"><br>
+      <input type="reset" value="한번누르면다시는안누를걸"><br>
+      <input type="button" value="누르지마시오"><br>
+      <button>나 누르면 데이터 가냐?</button>
+      <br>
+      <hr>
+    </form>
+
+    <!-- Free Zone -->
+    <!-- 텍스트 입력  -->
+    <h3>사용자 정보 입력</h3>
+    이름 : <input type="text" value="이름없음" /><br />
+    <label>아이디 : </label>
+    <input type="text" placeholder="여기에 계정을 넣으시오" /><br />
+    암호 : <input type="password" /><br />
+    <label>확인 : </label><input type="password" />
+    <hr />
+
+    <!-- radio button : name 속성이 동일해야 같은 그룹이다 -->
+    <h3>저녁 메뉴를 고르시오</h3>
+    스파게티<input type="radio" name="dinner" /><br />
+    빠에야<input type="radio" name="dinner" checked /><br />
+    짜파구리<input type="radio" name="dinner" checked />
+    <hr />
+
+    <!-- 체크박스 -->
+    <h3>관심은 없지만 당신의 취미는 무엇?</h3>
+    독서<input type="checkbox" checked /><br />
+    요리<input type="checkbox" /><br />
+    수영<input type="checkbox" />
+    <hr />
+
+    <!-- file, color -->
+    <h3>극비문서 업로드</h3>
+    <input type="file" />
+    <input type="color" />
+    <hr />
+
+    <!-- number -->
+    <h3>한 번 짝수를 입력해보세요</h3>
+    <input type="number" value="1" min="1" max="100" step="2" /><br />
+    <hr />
+
+    <!-- button -->
+    <h3>제출하면 돌이킬 수 없을 것이다</h3>
+    <button>반도체기술유출</button><br />
+    <input type="button" value="반도체기술유출진짜" /><br />
+    <input type="submit" value="반도체기술유출진짜진짜" />
+    <hr />
+
+    <!-- select box -->
+    <h3>저녁 디저트를 고르시오</h3>
+    <select>
+      <option>사과</option>
+      <option selected>딸기</option>
+      <option>수박</option>
+      <option>참외</option>
+    </select>
+
+    <!-- 텍스트에어리어 -->
+    <h3>나한테 하고싶은 말이 있으면 해봐</h3>
+    <textarea cols="100" rows="10">할말없으면 안해도 돼</textarea>
+    <hr />
+
+    <!-- 프로그레스 바 -->
+    <h3>내 영화 손익분기점 달성율</h3>
+    <progress value="70" max="100"></progress>
+  </body>
+</html>

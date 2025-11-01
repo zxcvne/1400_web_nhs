@@ -1,0 +1,652 @@
+2025-10-20 21:36:59.941 - DBeaver 25.1.4.202508031529 is starting
+2025-10-20 21:36:59.946 - OS: Windows 11 10.0 (amd64)
+2025-10-20 21:36:59.947 - Java version: 21.0.5 by Eclipse Adoptium (64bit)
+2025-10-20 21:36:59.947 - Install path: 'C:\1400_web_nhs\devtools\dbeaver'
+2025-10-20 21:36:59.948 - Instance path: 'file:/C:/1400_web_nhs/02_database/workspace/'
+2025-10-20 21:36:59.951 - Memory available 64Mb/1024Mb
+2025-10-20 21:36:59.982 - Create display
+2025-10-20 21:37:00.419 - Initialize desktop platform...
+2025-10-20 21:37:00.931 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.11.200.v20250513-1234]
+> Start Core Resource Management [org.eclipse.core.resources 3.22.200.v20250513-1234]
+> Start Team Support Core [org.eclipse.team.core 3.10.700.v20250313-0656]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.160.202508031529]
+2025-10-20 21:37:01.757 - Initialize base platform...
+2025-10-20 21:37:01.853 - Platform initialized (1434ms)
+2025-10-20 21:37:02.372 - Starting instance server at http://localhost:51691
+2025-10-20 21:37:02.394 - Run workbench
+> Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.800.v20250422-1254]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.200.v20250326-1945]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.500.v20250123-0754]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.4.800.v20250422-1254]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.14.600.v20250331-1050]
+> Start Eclipse e4 core commands [org.eclipse.e4.core.commands 1.1.600.v20250307-1331]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.39.0.v20250414-1351]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.14.500.v20250213-1508]
+> Start Eclipse e4 Workbench Add-ons [org.eclipse.e4.ui.workbench.addons.swt 1.5.700.v20250422-1254]
+> Start Eclipse e4 Workbench SWT Renderer [org.eclipse.e4.ui.workbench.renderers.swt 0.16.800.v20250519-1609]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.18.300.v20240413-1529]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.600.v20250409-1135]
+> Start Default Text Editor [org.eclipse.ui.editors 3.20.0.v20250514-1719]
+> Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.19.200.v20250514-1719]
+2025-10-20 21:37:09.738 - Configure workbench window
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.150.202508031529]
+2025-10-20 21:37:10.641 - Total database drivers: 124 (124)
+> Start Help System Core [org.eclipse.help 3.10.500.v20250423-1201]
+2025-10-20 21:37:10.959 - Create actions
+2025-10-20 21:37:11.009 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2025-10-20 21:37:11.011 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2025-10-20 21:37:11.014 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2025-10-20 21:37:11.016 - Create workbench actions
+2025-10-20 21:37:15.096 - Initialize workbench window
+2025-10-20 21:37:15.144 - Finish initialization
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.160.202508031529]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.4.600.v20250521-0413]
+> Start Internet Connection Management UI [org.eclipse.ui.net 1.5.400.v20240413-1529]
+> Start Internet Connection Management [org.eclipse.core.net 1.5.700.v20250313-0656]
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.160.202508031529]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.197.202508031529]
+2025-10-20 21:37:24.212 - Open [https://dbeaver.io/product/version.xml]
+> Start GEF Classic Draw2d [org.eclipse.draw2d 3.20.0.202505280821]
+> Start GEF Classic GEF (MVC) [org.eclipse.gef 3.22.0.202505280821]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.ui.editors.erd 3.1.1.202508031529]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.model.erd 1.1.1.202508031529]
+> Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.157.202508031529]
+> Start DBeaver JDBC Model [org.jkiss.dbeaver.model.jdbc 1.0.53.202508031529]
+> Start DBeaver Oracle Model [org.jkiss.dbeaver.ext.oracle 2.1.245.202508031529]
+2025-10-20 21:37:25.994 - Connect with 'XE' (oracle_thin-199f51d117b-1706c5a31197e328)
+2025-10-20 21:37:26.133 - Execution context opened (XE; Main; 0)
+2025-10-20 21:37:28.250 - Execution context opened (XE; Metadata; 1)
+2025-10-20 21:37:28.602 - Connected (oracle_thin-199f51d117b-1706c5a31197e328, Oracle JDBC driver [23.2.0.0.0])
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.147.202508031529]
+2025-10-20 21:37:50.422 - Datasource oracle_thin-19993d9eec4-741bdf2ecd16361c not found in project CREATE (/CREATE/Scripts/Script.sql)
+> Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.138.202508031529]
+> Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.138.202508031529]
+> Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.136.202508031529]
+> Start DBeaver AI Model [org.jkiss.dbeaver.model.ai 2.0.3.202508031529]
+> Start DBeaver AI UI [org.jkiss.dbeaver.ui.ai 1.0.62.202508031529]
+> Start Core Compare Support [org.eclipse.compare.core 3.8.700.v20250120-0641]
+> Start Console [org.eclipse.ui.console 3.14.300.v20250509-1251]
+> Start Debug Core [org.eclipse.debug.core 3.23.0.v20250509-1924]
+2025-10-20 21:37:55.307 - Execution context opened (XE; SQLEditor <SELECT.sql>; 2)
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.55.202508031529]
+2025-10-20 21:38:12.390 - Datasource oracle_thin-19993d9eec4-741bdf2ecd16361c not found in project CREATE (/CREATE/Scripts/Script.sql)
+2025-10-20 21:39:28.820 - Open external file(s) [[C:\sqld_1116\SELECT.sql]]
+2025-10-20 21:40:59.083 - Execution context opened (XE; SQLEditor <Function.sql>; 3)
+2025-10-20 21:41:00.932 - 	Invalidate context 'Main' for oracle_thin-199f51d117b-1706c5a31197e328 (BEFORE_INVALIDATE)
+2025-10-20 21:41:00.947 - Execution context closed (XE, 0)
+2025-10-20 21:41:00.948 - 	Invalidate context 'Metadata' for oracle_thin-199f51d117b-1706c5a31197e328 (BEFORE_INVALIDATE)
+2025-10-20 21:41:00.959 - Execution context closed (XE, 1)
+2025-10-20 21:41:00.959 - 	Invalidate context 'SQLEditor <SELECT.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (BEFORE_INVALIDATE)
+2025-10-20 21:41:00.970 - Execution context closed (XE, 2)
+2025-10-20 21:41:00.971 - 	Invalidate context 'SQLEditor <Function.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (BEFORE_INVALIDATE)
+2025-10-20 21:41:00.983 - Execution context closed (XE, 3)
+2025-10-20 21:41:00.984 - 	Invalidate context 'Main' for oracle_thin-199f51d117b-1706c5a31197e328 (INVALIDATE)
+2025-10-20 21:41:01.093 - 	Invalidate context 'Metadata' for oracle_thin-199f51d117b-1706c5a31197e328 (INVALIDATE)
+2025-10-20 21:41:01.228 - 	Invalidate context 'SQLEditor <SELECT.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (INVALIDATE)
+2025-10-20 21:41:01.354 - 	Invalidate context 'SQLEditor <Function.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (INVALIDATE)
+2025-10-20 21:41:01.475 - 	Invalidate context 'Main' for oracle_thin-199f51d117b-1706c5a31197e328 (AFTER_INVALIDATE)
+2025-10-20 21:41:01.476 - 	Invalidate context 'Metadata' for oracle_thin-199f51d117b-1706c5a31197e328 (AFTER_INVALIDATE)
+2025-10-20 21:41:01.477 - 	Invalidate context 'SQLEditor <SELECT.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (AFTER_INVALIDATE)
+2025-10-20 21:41:01.477 - 	Invalidate context 'SQLEditor <Function.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (AFTER_INVALIDATE)
+2025-10-20 21:41:01.502 - Connections reopened: 4 (of 4)
+2025-10-20 21:41:01.923 - 	Invalidate context 'Main' for oracle_thin-199f51d117b-1706c5a31197e328 (BEFORE_INVALIDATE)
+2025-10-20 21:41:01.936 - Execution context closed (XE, 0)
+2025-10-20 21:41:01.936 - 	Invalidate context 'Metadata' for oracle_thin-199f51d117b-1706c5a31197e328 (BEFORE_INVALIDATE)
+2025-10-20 21:41:01.948 - Execution context closed (XE, 1)
+2025-10-20 21:41:01.949 - 	Invalidate context 'SQLEditor <SELECT.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (BEFORE_INVALIDATE)
+2025-10-20 21:41:01.962 - Execution context closed (XE, 2)
+2025-10-20 21:41:01.962 - 	Invalidate context 'SQLEditor <Function.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (BEFORE_INVALIDATE)
+2025-10-20 21:41:01.973 - Execution context closed (XE, 3)
+2025-10-20 21:41:01.974 - 	Invalidate context 'Main' for oracle_thin-199f51d117b-1706c5a31197e328 (INVALIDATE)
+2025-10-20 21:41:02.091 - 	Invalidate context 'Metadata' for oracle_thin-199f51d117b-1706c5a31197e328 (INVALIDATE)
+2025-10-20 21:41:02.229 - 	Invalidate context 'SQLEditor <SELECT.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (INVALIDATE)
+2025-10-20 21:41:02.320 - 	Invalidate context 'SQLEditor <Function.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (INVALIDATE)
+2025-10-20 21:41:02.418 - 	Invalidate context 'Main' for oracle_thin-199f51d117b-1706c5a31197e328 (AFTER_INVALIDATE)
+2025-10-20 21:41:02.418 - 	Invalidate context 'Metadata' for oracle_thin-199f51d117b-1706c5a31197e328 (AFTER_INVALIDATE)
+2025-10-20 21:41:02.419 - 	Invalidate context 'SQLEditor <SELECT.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (AFTER_INVALIDATE)
+2025-10-20 21:41:02.419 - 	Invalidate context 'SQLEditor <Function.sql>' for oracle_thin-199f51d117b-1706c5a31197e328 (AFTER_INVALIDATE)
+2025-10-20 21:41:02.419 - Connections reopened: 4 (of 4)
+2025-10-20 21:45:01.021 - Resource 'Scripts' doesn't exists on file system
+2025-10-20 21:45:42.824 - Unrecognized Oracle client version at C:\oraclexe\app\oracle\product\11.2.0\server
+2025-10-20 21:45:42.973 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-10-20 21:45:43.143 - Auth model 'native' was replaced by 'oracle_native'
+2025-10-20 21:45:43.219 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+> Start Data Transfer UI [org.jkiss.dbeaver.data.transfer.ui 1.0.144.202508031529]
+2025-10-20 21:46:04.791 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-10-20 21:46:04.932 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.144.202508031529]
+2025-10-20 21:48:05.187 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-10-20 21:48:11.614 - Connect with 'web' (mariaDB-1988dc59d18-671476f86235dcd7)
+> Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.245.202508031529]
+2025-10-20 21:48:11.639 - Execution context opened (web; Main; 4)
+> Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.184.202508031529]
+2025-10-20 21:48:11.850 - Execution context opened (web; Metadata; 5)
+2025-10-20 21:48:11.940 - Connected (mariaDB-1988dc59d18-671476f86235dcd7, MariaDB Connector/J [3.5.2])
+> Start DBeaver Tasks View [org.jkiss.dbeaver.tasks.ui.view 1.0.109.202508031529]
+2025-10-20 21:55:31.322 - Transaction log is not available.
+Connect to a database.
+2025-10-20 21:55:56.253 - Execution context closed (XE, 0)
+2025-10-20 21:55:56.265 - Execution context closed (XE, 1)
+2025-10-20 21:55:56.277 - Execution context closed (XE, 2)
+2025-10-20 21:55:56.288 - Execution context closed (XE, 3)
+2025-10-20 21:55:56.288 - Disconnected (oracle_thin-199f51d117b-1706c5a31197e328)
+2025-10-20 21:56:07.656 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-10-20 21:56:07.835 - Auth model 'native' was replaced by 'oracle_native'
+2025-10-20 21:56:07.857 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-10-20 21:57:28.435 - Connect with 'XE' (oracle_thin-19a01b0fc61-549da1d2233ddd33)
+2025-10-20 21:57:28.437 - Execution context opened (XE; Main; 6)
+2025-10-20 21:57:29.791 - ORA-01017: invalid username/password; logon denied
+
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-01017: invalid username/password; logon denied
+
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:259)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:133)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:209)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:124)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:125)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:109)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:142)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1413)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1271)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1061)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:603)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:598)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1710)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:819)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:462)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTHWithO5Logon(T4CTTIoauthenticate.java:1628)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1375)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1322)
+	at oracle.jdbc.driver.T4CConnection.authenticateWithPassword(T4CConnection.java:1516)
+	at oracle.jdbc.driver.T4CConnection.authenticateUserForLogon(T4CConnection.java:1459)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:828)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:112)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:86)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:215)
+	... 16 more
+2025-10-20 21:57:41.859 - Connect with 'XE' (oracle_thin-19a01b0fc61-549da1d2233ddd33)
+2025-10-20 21:57:41.861 - Execution context opened (XE; Main; 7)
+2025-10-20 21:57:42.933 - ORA-01017: invalid username/password; logon denied
+
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-01017: invalid username/password; logon denied
+
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:259)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:133)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:209)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:124)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:125)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:109)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:142)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1413)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1271)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1061)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:109)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:123)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:88)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2456)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:159)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:226)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:94)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:88)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:603)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:598)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1710)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:819)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:462)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTHWithO5Logon(T4CTTIoauthenticate.java:1628)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1375)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1322)
+	at oracle.jdbc.driver.T4CConnection.authenticateWithPassword(T4CConnection.java:1516)
+	at oracle.jdbc.driver.T4CConnection.authenticateUserForLogon(T4CConnection.java:1459)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:828)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:112)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:86)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:215)
+	... 27 more
+2025-10-20 21:57:53.638 - Connect with 'XE' (oracle_thin-199f51d117b-1706c5a31197e328)
+2025-10-20 21:57:53.641 - Execution context opened (XE; Main; 8)
+2025-10-20 21:57:53.735 - Execution context opened (XE; Metadata; 9)
+2025-10-20 21:57:53.851 - Connected (oracle_thin-199f51d117b-1706c5a31197e328, Oracle JDBC driver [23.2.0.0.0])
+2025-10-20 21:57:53.885 - Execution context opened (XE; SQLEditor <SELECT.sql>; 10)
+2025-10-20 21:57:53.888 - Execution context opened (XE; SQLEditor <Function.sql>; 11)
+2025-10-20 21:57:54.011 - Can't set datasource for input org.eclipse.ui.ide.FileStoreEditorInput@81df23fe
+2025-10-20 21:57:54.127 - Can't set datasource for input org.eclipse.ui.ide.FileStoreEditorInput@81df23fe
+2025-10-20 21:57:54.170 - Can't set datasource for input org.eclipse.ui.ide.FileStoreEditorInput@81df23fe
+2025-10-20 21:57:54.208 - Can't set datasource for input org.eclipse.ui.ide.FileStoreEditorInput@81df23fe
+2025-10-20 21:57:54.268 - Can't set datasource for input org.eclipse.ui.ide.FileStoreEditorInput@81df23fe
+2025-10-20 21:57:54.304 - Can't set datasource for input org.eclipse.ui.ide.FileStoreEditorInput@81df23fe
+2025-10-20 21:58:03.972 - Connect with 'XE' (oracle_thin-19a01b0fc61-549da1d2233ddd33)
+2025-10-20 21:58:03.974 - Execution context opened (XE; Main; 12)
+2025-10-20 21:58:05.046 - ORA-01017: invalid username/password; logon denied
+
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-01017: invalid username/password; logon denied
+
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:259)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:133)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:209)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:124)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:125)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:109)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:142)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1413)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1271)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1061)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:109)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:123)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:88)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2456)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:159)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:226)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:94)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:88)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:603)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:598)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1710)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:819)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:462)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTHWithO5Logon(T4CTTIoauthenticate.java:1628)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1375)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1322)
+	at oracle.jdbc.driver.T4CConnection.authenticateWithPassword(T4CConnection.java:1516)
+	at oracle.jdbc.driver.T4CConnection.authenticateUserForLogon(T4CConnection.java:1459)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:828)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:112)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:86)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:215)
+	... 27 more
+2025-10-20 21:58:15.899 - Execution context closed (XE, 8)
+2025-10-20 21:58:15.961 - Execution context closed (XE, 9)
+2025-10-20 21:58:15.972 - Execution context closed (XE, 10)
+2025-10-20 21:58:15.983 - Execution context closed (XE, 11)
+2025-10-20 21:58:15.984 - Disconnected (oracle_thin-199f51d117b-1706c5a31197e328)
+2025-10-20 21:58:16.418 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:16.523 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:16.536 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:19.061 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:20.267 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:23.848 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:26.845 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:27.000 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:27.009 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:27.189 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:27.196 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:28.997 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:34.415 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:34.423 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:34.513 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:35.722 - Connect with 'XE' (oracle_thin-19a01b0fc61-549da1d2233ddd33)
+2025-10-20 21:58:35.723 - Execution context opened (XE; Main; 13)
+2025-10-20 21:58:35.804 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:36.789 - ORA-01017: invalid username/password; logon denied
+
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-01017: invalid username/password; logon denied
+
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:259)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:133)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:209)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:124)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:125)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:109)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:142)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1413)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1271)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1061)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.runSync(ConnectJob.java:109)
+	at org.jkiss.dbeaver.ui.actions.datasource.DataSourceHandler.connectToDataSource(DataSourceHandler.java:123)
+	at org.jkiss.dbeaver.ui.actions.datasource.UIServiceConnectionsImpl.initConnection(UIServiceConnectionsImpl.java:88)
+	at org.jkiss.dbeaver.model.DBUtils.initDataSource(DBUtils.java:2456)
+	at org.jkiss.dbeaver.model.navigator.DBNDataSource.initializeNode(DBNDataSource.java:159)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:226)
+	at org.jkiss.dbeaver.model.navigator.DBNDatabaseNode.getChildren(DBNDatabaseNode.java:1)
+	at org.jkiss.dbeaver.model.navigator.DBNUtils.getNodeChildrenFiltered(DBNUtils.java:94)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:49)
+	at org.jkiss.dbeaver.ui.navigator.database.load.TreeLoadService.evaluate(TreeLoadService.java:1)
+	at org.jkiss.dbeaver.ui.LoadingJob.run(LoadingJob.java:88)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:603)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:598)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1710)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:819)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:462)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTHWithO5Logon(T4CTTIoauthenticate.java:1628)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1375)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1322)
+	at oracle.jdbc.driver.T4CConnection.authenticateWithPassword(T4CConnection.java:1516)
+	at oracle.jdbc.driver.T4CConnection.authenticateUserForLogon(T4CConnection.java:1459)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:828)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:112)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:86)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:215)
+	... 27 more
+2025-10-20 21:58:37.185 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:43.949 - Connect with 'XE' (oracle_thin-19a01b0fc61-549da1d2233ddd33)
+2025-10-20 21:58:43.950 - Execution context opened (XE; Main; 14)
+2025-10-20 21:58:43.987 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:58:45.037 - ORA-01017: invalid username/password; logon denied
+
+org.jkiss.dbeaver.model.exec.DBCConnectException: ORA-01017: invalid username/password; logon denied
+
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:259)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:133)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.openConnection(OracleDataSource.java:209)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCExecutionContext.connect(JDBCExecutionContext.java:124)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.initializeMainContext(JDBCRemoteInstance.java:106)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCRemoteInstance.<init>(JDBCRemoteInstance.java:61)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.initializeRemoteInstance(JDBCDataSource.java:125)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:109)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.<init>(JDBCDataSource.java:100)
+	at org.jkiss.dbeaver.ext.oracle.model.OracleDataSource.<init>(OracleDataSource.java:109)
+	at org.jkiss.dbeaver.ext.oracle.OracleDataSourceProvider.openDataSource(OracleDataSourceProvider.java:142)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.openDataSource(DataSourceDescriptor.java:1413)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect0(DataSourceDescriptor.java:1271)
+	at org.jkiss.dbeaver.registry.DataSourceDescriptor.connect(DataSourceDescriptor.java:1061)
+	at org.jkiss.dbeaver.runtime.jobs.ConnectJob.run(ConnectJob.java:78)
+	at org.jkiss.dbeaver.model.runtime.AbstractJob.run(AbstractJob.java:119)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:702)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:603)
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:598)
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1710)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:819)
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:1041)
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:443)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:462)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTHWithO5Logon(T4CTTIoauthenticate.java:1628)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1375)
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1322)
+	at oracle.jdbc.driver.T4CConnection.authenticateWithPassword(T4CConnection.java:1516)
+	at oracle.jdbc.driver.T4CConnection.authenticateUserForLogon(T4CConnection.java:1459)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:828)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1132)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:104)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:837)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:664)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:112)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCConnectionOpener.run(JDBCConnectionOpener.java:86)
+	at org.jkiss.dbeaver.model.impl.jdbc.JDBCDataSource.openConnection(JDBCDataSource.java:215)
+	... 16 more
+2025-10-20 21:58:45.148 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 21:59:00.301 - Service 'org.jkiss.dbeaver.ui.UIServiceConnectionEditor' not found
+2025-10-20 21:59:00.628 - Auth model 'native' was replaced by 'oracle_native'
+2025-10-20 21:59:00.716 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2025-10-20 21:59:58.511 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:00:06.874 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:07.587 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:00:07.591 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:07.597 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:00:07.599 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:08.715 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:00:08.718 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:17.943 - Connect with 'XE' (oracle_thin-19a01b39ead-300b042fb391d6be)
+2025-10-20 22:00:17.945 - Execution context opened (XE; Main; 15)
+2025-10-20 22:00:18.025 - Execution context opened (XE; Metadata; 16)
+2025-10-20 22:00:18.101 - Connected (oracle_thin-19a01b39ead-300b042fb391d6be, Oracle JDBC driver [23.2.0.0.0])
+2025-10-20 22:00:20.309 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:20.321 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:20.629 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:20.664 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:21.083 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:00:21.086 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:28.268 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:29.035 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:29.811 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:30.995 - No active connection
+2025-10-20 22:00:31.158 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:00:31.164 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:32.542 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:00:32.545 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:37.171 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:37.900 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:00:42.198 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:00:42.202 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:05.757 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:05.762 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:06.567 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:06.569 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:07.705 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:07.706 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:08.146 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:08.148 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:08.154 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:08.155 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:08.198 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:08.200 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:08.753 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:08.756 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:10.191 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:10.273 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:16.025 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:16.028 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:17.584 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:17.586 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:19.549 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:19.552 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:20.156 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:20.206 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:21.273 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:21.282 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:21.772 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:27.668 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:28.306 - No active connection
+2025-10-20 22:01:28.686 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:28.694 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:31.830 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:31.835 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:31.867 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:31.874 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:35.989 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:35.995 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:36.084 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:36.107 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:36.110 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:36.207 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:36.217 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:38.990 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:38.993 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:41.203 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:41.703 - No active connection
+2025-10-20 22:01:41.903 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:41.908 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:42.523 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:42.527 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:42.594 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:42.605 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:48.188 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:49.099 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:49.637 - No active connection
+2025-10-20 22:01:49.768 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:49.775 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:49.843 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:50.322 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:50.327 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:50.370 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:50.374 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:01:52.883 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:01:52.901 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:00.510 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:00.521 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:05.271 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:07.942 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:08.189 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:08.202 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:10.407 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:10.412 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:10.893 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:10.896 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:11.223 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:11.253 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:11.941 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:11.946 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:11.953 - Datasource oracle_thin-19a01b0fc61-549da1d2233ddd33 not found in project SQLD (/SQLD/function.sql)
+2025-10-20 22:02:11.956 - Execution context opened (XE; SQLEditor <function.sql>; 17)
+2025-10-20 22:02:12.068 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:12.223 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:12.417 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:19.372 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:20.438 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:21.570 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:21.796 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:29.435 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:38.104 - 
+org.eclipse.core.internal.resources.ResourceException(/CREATE/Scripts/Create.sql)[368]: org.eclipse.core.runtime.CoreException: File not found: C:\1400_web_nhs\02_database\workspace\CREATE\Scripts\Create.sql.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:32)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.handleReadIOException(LocalFile.java:542)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:523)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:882)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:352)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:342)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditorUtils.getScriptDescription(SQLEditorUtils.java:318)
+	at org.jkiss.dbeaver.ui.editors.sql.SQLEditorUtils.getResourceDescription(SQLEditorUtils.java:272)
+	at org.jkiss.dbeaver.ui.editors.sql.scripts.ScriptsHandlerImpl.getResourceDescription(ScriptsHandlerImpl.java:81)
+	at org.jkiss.dbeaver.model.navigator.DBNResource.getNodeDescription(DBNResource.java:104)
+	at org.jkiss.dbeaver.ui.navigator.database.NavigatorViewBase.onSelectionChange(NavigatorViewBase.java:258)
+	at org.jkiss.dbeaver.ui.navigator.database.NavigatorViewBase.lambda$1(NavigatorViewBase.java:123)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:167)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2131)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1052)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1169)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1198)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:262)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4338)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1214)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4136)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3724)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:678)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:583)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:315)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:869)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:660)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1650)
+Caused by: java.io.FileNotFoundException: C:\1400_web_nhs\02_database\workspace\CREATE\Scripts\Create.sql (지정된 파일을 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:521)
+	... 43 more
+2025-10-20 22:02:38.114 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Create.sql)
+2025-10-20 22:02:38.116 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Create.sql)
+2025-10-20 22:02:38.117 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Create.sql)
+2025-10-20 22:02:38.154 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Create.sql)
+2025-10-20 22:02:38.207 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Create.sql)
+2025-10-20 22:02:38.216 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Create.sql)
+2025-10-20 22:02:38.216 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Create.sql)
+2025-10-20 22:02:38.218 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Create.sql)
+2025-10-20 22:02:38.219 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Create.sql)
+2025-10-20 22:02:46.697 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:46.705 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:46.705 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:46.756 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:46.776 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:46.788 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:46.788 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:46.792 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:46.792 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:51.650 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:51.651 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:51.652 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/Function.sql)
+2025-10-20 22:02:53.497 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/SELECT.sql)
+2025-10-20 22:02:53.520 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/SELECT.sql)
+2025-10-20 22:02:53.520 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/SELECT.sql)
+2025-10-20 22:02:53.552 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/SELECT.sql)
+2025-10-20 22:02:53.571 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/SELECT.sql)
+2025-10-20 22:02:53.579 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/SELECT.sql)
+2025-10-20 22:02:53.579 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/SELECT.sql)
+2025-10-20 22:02:53.582 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/SELECT.sql)
+2025-10-20 22:02:53.582 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/SELECT.sql)
+2025-10-20 22:02:56.855 - Datasource oracle_thin-199f51d117b-1706c5a31197e328 not found in project CREATE (/CREATE/Scripts/SELECT.sql)
+2025-10-20 22:04:23.166 - Execution context closed (XE, 17)
+2025-10-20 22:04:24.622 - Dispose navigator model
+2025-10-20 22:04:24.685 - DBeaver is stopping
+2025-10-20 22:04:24.687 - Stop instance server
+2025-10-20 22:04:25.695 - Instance server has been stopped
+2025-10-20 22:04:25.696 - DBeaver shutdown completed

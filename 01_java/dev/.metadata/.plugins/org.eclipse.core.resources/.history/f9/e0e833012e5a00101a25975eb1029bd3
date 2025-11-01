@@ -1,0 +1,51 @@
+package day04;
+
+import java.util.Random;
+
+import utils.Mu;
+
+public class ConditionEx {
+
+	public static void main(String[] args) {
+		// TODO Auto_generated method stub
+		Mu.p(Mu.RED + "IF Example" + Mu.END);
+		Random rd = new Random();
+		int num = rd.nextInt(151); // 0~150
+		Mu.p("Current Num : " + num); 
+//		Mu.p("" + num); // 문자열 됨
+		
+		if(num > 100) // 문장이 한줄이면 중괄호 생략 가능
+			Mu.p("매우 큰 수");
+		else if(num > 50) 
+			Mu.p("적당히 큰 수");			
+		else 
+			Mu.p("허접");
+		
+		// nested
+		int eng = rd.nextInt(101);
+		int math = rd.nextInt(101);
+		
+		// 영어와 수학 점수가 모두 60점 이상이면 pass, 아니면 Fail을 출력하시오.
+		// 영어 : **점, 수학 : **점, Pass || Fail
+
+		if(eng >= 60 && math >= 60) 
+			Mu.p("영어: " + eng + ", "+"수학: " + math + Mu.BLUE + " pass"+ Mu.END);
+		else 
+			Mu.p("영어: " + eng + ", "+"수학: " + math + Mu.RED + " Fail"+ Mu.END);
+		
+		// 수업 방법 1
+		String pf = "";
+		
+		if(eng>=60)
+			if(math>=60)
+				pf = "pass";
+			else 
+				pf = "Fail";
+		else
+			pf = "Fail";
+		Mu.p("영어: " + eng + ", "+"수학: " + math + pf);
+		
+		
+	}// main
+
+}// class

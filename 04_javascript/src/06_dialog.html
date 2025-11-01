@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Dialog</title>
+  </head>
+  <body></body>
+  <script>
+    // 1. alert : 결과를 바라지 않음. 정보 출력 목적
+    var result = alert("난 너에게 바라는 것이 없어");
+    document.write("<h1>alert return : " + result + "</h1>");
+    if (result == undefined) {
+      document.write("<h1>정해진 것 없으시다는?</h1>");
+    }
+
+    // 2. confirm
+    var msg = "";
+    result = confirm("최초의 트윗을 36억에 사시겠습니까?");
+    document.write("구매결과:" + result);
+
+    if (msg) {
+      msg = "결제되었습니다. 사실 시장가는 3800만원...";
+    } else {
+      // 3. prompt
+      var name = prompt("당신, 이름이 뭡니까?", "방랑자");
+      msg = name + "님 반드시 후회할 것입니다.";
+    }
+    document.write("<br><br><br>" + msg);
+  </script>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>JSON</title>
+  </head>
+  <body>
+    <h1>JSON <-> Object</h1>
+    <hr />
+  </body>
+  <script>
+    var user = {
+      name: "HuntRix",
+      member: 3,
+      title: "Golden",
+    };
+
+    var userJSON = JSON.stringify(user);
+    console.log(user);
+    console.log(userJSON);
+
+    var user2 = JSON.parse(userJSON);
+    user2.member = 4;
+    user2.title = "Takedown";
+    console.log(user2);
+  </script>
+</html>

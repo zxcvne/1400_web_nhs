@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Variable2</title>
+  </head>
+  <body></body>
+  <script>
+    // Hoisting
+    f1();
+
+    function f1() {
+      console.log("F1 called");
+    }
+
+    // 초기화 작업(값 할당 제외)만 호이스팅
+    // 변수는 변수명만 호이스팅됨
+
+    console.log("#1 data1 : " + data1);
+    var data1 = 500;
+    console.log("#2 data1 : " + data1);
+
+    // let, const
+    for (let i = 0; i < 100; i++) {}
+    // console.log("#3 let i : " + i); // error
+
+    const goldenRule = "나는 꿈이 있어요"; // 마틴 루터 킹
+    // goldenRule = "나는 꿈이 없어요";
+
+    // 번외(선언을 해야만 사용할 수 있는 기능)
+    var man = [];
+    man.name = "QWER";
+    man.cry = function () {
+      console.log("나 운다");
+    };
+    console.log("#6 man.name : " + man.name);
+    man.cry();
+  </script>
+</html>

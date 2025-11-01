@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Callback</title>
+  </head>
+  <body></body>
+  <script>
+    function complexCal(num1, num2, callback) {
+      // undifind면 false임
+      if (callback) {
+        // 해달라고 하는 일이 없으면
+        // callback으로 할 일
+        callback(num1 * num2);
+      } else {
+        // 없으면
+        console.log("[complexCal]" + num1 * num2);
+      }
+    }
+
+    function printHTML(data) {
+      document.write("<h2>드디어 밀수품 팔았다</h2>");
+      document.write("<h2>판매 가격 : " + data + "</h2>");
+    }
+
+    function callToPolice(data) {
+      if (data > 100) document.write("<h2>경찰서에 고발할거에요</h2>");
+    }
+
+    // complexCal(139, 203);
+    complexCal(139, 203, printHTML);
+    complexCal(139, 203, callToPolice);
+  </script>
+</html>

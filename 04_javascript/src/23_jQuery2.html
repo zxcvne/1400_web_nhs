@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>jQuery Event</title>
+    <style>
+      .dessert {
+        color: red;
+      }
+      .big-font {
+        font-size: 32px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="dessert">
+      <li>Coffee</li>
+      <li>Cake</li>
+      <li>Macaron</li>
+      <li>Egg Tart</li>
+    </ul>
+    <div id="div1">Toggle</div>
+    <div id="div2">Fade Toggle</div>
+    <div id="div3">Slide</div>
+    <div id="div4">Class On/Off</div>
+    <hr />
+
+    <ul class="car" myVal="genius">
+      <li>Benz</li>
+      <li>Audi</li>
+      <li>BMW</li>
+    </ul>
+  </body>
+  <script src="./jquery-3.7.1.min.js"></script>
+  <script>
+    const $div1 = $("div#div1");
+    const $div2 = $("div#div2");
+    const $div3 = $("div#div3");
+    const $div4 = $("div#div4");
+
+    $div1.on("click", function () {
+      // show(밀리초), hide(밀리초), toggle(밀리초)
+      $("ul").toggle(1000);
+    });
+
+    $div2.on("click", function () {
+      // fadeIn, fadeOut, fadeToggle
+      $("ul").fadeToggle(1000);
+    });
+
+    $div3.on("click", function () {
+      // slideDown, slideUp, slideToggle
+      $("ul").slideToggle(1000);
+    });
+
+    $div4.on("click", function () {
+      $("ul").toggleClass("dessert");
+      $("ul").addClass("big-font");
+    });
+  </script>
+  <script>
+    // 1. car의 li태그 가져오기
+    var lists = $("ul.car li");
+    console.log(lists);
+
+    // 2. class가 car인 요소 전체 가져오기
+    var cars = $(".car");
+    console.log(cars);
+
+    // 3. cars의 전체 자식 가져오기
+    var cars_children = cars.children();
+    console.log(cars_children);
+
+    // 4. cars의 자식 중 첫째 가져오기
+    console.log(cars.children().first().text());
+    console.log(cars.children().eq(1).text());
+    console.log(cars.children().last().text());
+
+    // 5. cars의 부모 가져오기
+    console.log(cars.parent());
+
+    // 6. cars의 첫째 자식 날려버리기
+    cars.children().first().remove();
+
+    // 7. cars에 새로운 자식 추가하기
+    cars.append("<li>Volve</li><li>Porter</li>");
+    cars.html("<li>Porshe</li>" + cars.html());
+    cars.prepend("<li>걸어다녀</li>");
+
+    // 8. html 태그의 속성값 읽기/변경하기
+    document.write("<h2>" + cars.attr("class") + "</h2>");
+    document.write("<h2>" + cars.attr("myVal") + "</h2>");
+    cars.attr("myVal", "니가무슨천재");
+    document.write("<h2>" + cars.attr("myVal") + "</h2>");
+
+    // 9.
+  </script>
+</html>

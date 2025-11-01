@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item id="NodeList/DBNProjectDatabases/DBNBookmarkFolder/DBNDashboardFolder/DBNDiagramFolder/DBNResource">
+		<column name="Name" visible="true" order="0" width="100"/>
+		<column name="Path" visible="true" order="1" width="126"/>
+		<column name="Size" visible="true" order="2" width="100"/>
+		<column name="Last modified" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/DataSourceDescriptor">
+		<column name="Name" visible="true" order="0" width="100"/>
+		<column name="Description" visible="true" order="1" width="100"/>
+		<column name="Origin" visible="true" order="2" width="100"/>
+		<column name="Driver Type" visible="true" order="3" width="100"/>
+	</item>
+	<item id="NodeList/MySQLTable">
+		<column name="Table Name" visible="true" order="0" width="100"/>
+		<column name="Engine" visible="true" order="1" width="100"/>
+		<column name="Auto Increment" visible="true" order="2" width="100"/>
+		<column name="Data Length" visible="true" order="3" width="100"/>
+		<column name="Partitioned" visible="true" order="4" width="100"/>
+		<column name="Description" visible="true" order="5" width="100"/>
+	</item>
+	<item id="NodeList/MySQLUser">
+		<column name="User name" visible="true" order="0" width="146"/>
+		<column name="Host mask" visible="true" order="1" width="100"/>
+		<column name="SSL type" visible="true" order="2" width="100"/>
+		<column name="SSL cipher" visible="true" order="3" width="100"/>
+		<column name="Max questions" visible="true" order="4" width="100"/>
+		<column name="Max updates" visible="true" order="5" width="100"/>
+		<column name="Max connections" visible="true" order="6" width="104"/>
+		<column name="Max user connections" visible="true" order="7" width="130"/>
+	</item>
+	<item id="SchemaSelector">
+		<column name="Name" visible="true" order="0" width="131"/>
+	</item>
+	<item id="Suggestion/NodeList/MySQLTableColumn">
+		<column name="Column Name" visible="true" order="0" width="121"/>
+		<column name="#" visible="true" order="1" width="56"/>
+		<column name="Data Type" visible="true" order="2" width="107"/>
+		<column name="Not Null" visible="false" order="3" width="100"/>
+		<column name="Auto Increment" visible="false" order="4" width="100"/>
+		<column name="Key" visible="false" order="5" width="100"/>
+		<column name="Default" visible="false" order="6" width="100"/>
+		<column name="Extra" visible="false" order="7" width="100"/>
+		<column name="Expression" visible="false" order="8" width="100"/>
+		<column name="Comment" visible="true" order="3" width="95"/>
+	</item>
+	<item id="scriptSelectorViewer">
+		<column name="Script" visible="true" order="0" width="140"/>
+		<column name="Time" visible="true" order="1" width="189"/>
+		<column name="Info" visible="true" order="2" width="86"/>
+		<column name="Folder" visible="true" order="3" width="98"/>
+	</item>
+	<item id="sqlFilterValueEditPopup">
+		<column name="Value" visible="true" order="0" width="102"/>
+		<column name="Count" visible="true" order="1" width="45"/>
+	</item>
+</items>

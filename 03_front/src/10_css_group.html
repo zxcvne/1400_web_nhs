@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CSS Group</title>
+    <style>
+        @font-face {
+            font-family: 'KoldiWebtoonMakerOngleifFont';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2508-2@1.0/Ownglyph_Coldywebtoonmaker-Rg.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Paperozi';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-9Black.woff2') format('woff2');
+            font-weight: 900;
+            font-display: swap;
+        }
+        h1 {
+            font-family: 'Paperozi';
+            text-align: center;
+        }
+        p {
+            font-size: 36px;
+            text-align: center;
+        }
+        /* id가 container인 요소 선택 */
+        #container {
+            background: #FF6A00;  /* 바탕색 */
+            width: 400px;
+            height: 200px;
+            margin: 100px auto;
+        }
+        div.greentext {
+            color: green;
+        }
+        .cyantext {
+            color: cyan;
+        }
+        /* p 태그 중 class가 grey 및 violet인 것 선택 */
+        p.grey, p.violet {
+            font-size: 24px;
+            margin-left: 100px;
+        }
+        p.grey { color: grey; }
+        p.violet { color: violet; }
+        .bigfont {
+            font-size: 100px;
+        }
+        .frontcolor {
+            color: darkorchid;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML 요소 선택자</h1>
+    <hr>
+    <h2>특정 속성을 사용한 요소에 스타일 적용하기</h2>
+    <p class="greentext">
+        특정 속성이 쓰인 모든 요소에 스타일을 적용합니다.
+    </p>
+
+    <div id="container"></div>
+    <div class="greentext">초록색 글자</div>
+    <div class="cyantext">하늘색 글자</div>
+
+    <h1>그룹 선택하기</h1>
+    <p class="grey">
+        그룹 공통으로 필요한 것은 여러 선택자를
+    </p>
+    <p class="violet">
+        쉼표로 연결하고 한 번만 정의하십시오.
+    </p>
+
+    <!-- 두 개 이상의 클래스 CSS를 적용하고 싶은 경우 -->
+    <!-- 공백으로 구분하여 다 넣으면 된다. -->
+    <p class="bigfont frontcolor">
+        이번 시즌의 대표 폰트는 이것입니다.
+    </p>
+</body>
+</html>
