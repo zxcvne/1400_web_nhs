@@ -83,16 +83,6 @@
 
 ---
 
-## 🏗️ Environment Setup (Windows)
-
-### 🔹 JDK 환경 변수 설정
-
-```bash
-setx JAVA_HOME "C:\1400_web_nhs\devtools\jdk-21.0.7"
-setx PATH "%JAVA_HOME%\bin;%PATH%"
-
----
-
 ## 🧠 Notes
 
 > _— 개인 공부용 정리 리포지토리_
