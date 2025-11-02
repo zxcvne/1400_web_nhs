@@ -87,9 +87,3 @@
 
 > _— 개인 공부용 정리 리포지토리_
 
----
-
-### 🪄 Author
-📍 Developer in training  
-📚 Studying Web Development, Java & Spring  
-🌱 _Continuous learner aiming to become a professional full-stack engineer._
