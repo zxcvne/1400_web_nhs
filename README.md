@@ -50,12 +50,46 @@
 
 ---
 
-## 📅 Progress Log
+# ⚙️ DevTools Environment
 
-| Date | Topic | Description |
-|------|--------|-------------|
-| 2025-11-02 | Repository Setup | 프로젝트 디렉토리 및 초기 커밋 완료 |
-| 2025-11-03 | Java Section | OOP / Static / Thread 학습 예정 |
+> 💻 Local Development Tools for Java · Web · Database · IDE  
+> Repository: `C:\1400_web_nhs\devtools\`
+
+---
+
+## 📁 Directory Overview
+
+| Folder | Description |
+|--------|--------------|
+| **apache-tomcat-11.0.4** | JSP / Servlet 실행용 Web Application Server (WAS) |
+| **dbeaver** | Database 관리 및 SQL 실습 도구 |
+| **eclipse** | **Eclipse IDE for Java Developers (SE 버전)** — Java 문법, OOP, API 학습용 |
+| **eclipse-jee** | **Eclipse IDE for Enterprise Java and Web Developers (JEE 버전)** — JSP, Servlet, Spring MVC, Web 프로젝트용 |
+| **jdk-21.0.7** | Java Development Kit 21 (OpenJDK 21.0.7) |
+| **VSCode-win32-arm64-1.101.2** | Visual Studio Code (Frontend, Markdown, Script 작성용) |
+
+---
+
+## 🧩 Tool Summary
+
+| Category | Tool | Version | Usage |
+|-----------|------|----------|--------|
+| **Java Runtime** | OpenJDK | 21.0.7 | Java 실행 / 컴파일 환경 |
+| **IDE (Java SE)** | Eclipse IDE | 2025-06+ | Java Core, API, OOP 학습 |
+| **IDE (Web JEE)** | Eclipse JEE IDE | 2025-06+ | JSP / Servlet / Spring / WebApp 개발 |
+| **Web Server** | Apache Tomcat | 11.0.4 | JSP / Servlet 실행용 서버 |
+| **Database Tool** | DBeaver | 최신 | MariaDB / SQL 실습 |
+| **Text Editor** | VSCode | 1.101.2 | HTML, CSS, JS, Markdown 편집 |
+
+---
+
+## 🏗️ Environment Setup (Windows)
+
+### 🔹 JDK 환경 변수 설정
+
+```bash
+setx JAVA_HOME "C:\1400_web_nhs\devtools\jdk-21.0.7"
+setx PATH "%JAVA_HOME%\bin;%PATH%"
 
 ---
 
