@@ -15,6 +15,7 @@
 | **04_javascript** | JavaScript 핵심 문법, 비동기 처리, DOM 조작 |
 | **05_jsp** | JSP / Servlet 학습 및 MVC 아키텍처 실습 |
 | **06_spring** | Spring Framework, DI, MVC, JDBC, REST API |
+| **devtools** | eclipse, dbeaver, vscode, jdk-21.0.7 |
 
 ---
 
