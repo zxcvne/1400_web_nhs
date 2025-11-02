@@ -24,15 +24,16 @@
   eclipse.ini를 확인해보면 가장 마지막줄에 -javaagent:C:\설치경로~\eclipse\lombok.jar
   가 추가 되어있다.
 
-* test
+  \* test
   com.koreait.board.bean.vo.SampleVO로 확인
   set/get series와 toString 메서드가 자동으로 생성되는지
 
 2. 의존성 주입(Dependency Injection)
-   - 의존성(Dependency)
-     하나의 객체가 다른 객체 없이는 역할을 할 수 없다.
-     A객체가 B객체 없이 동작이 불가능한 경우
-     'A객체가 B객체에 의존적이다'
+
+- 의존성(Dependency)
+  하나의 객체가 다른 객체 없이는 역할을 할 수 없다.
+  A객체가 B객체 없이 동작이 불가능한 경우
+  'A객체가 B객체에 의존적이다'
 
 - 주입(Injection)
   // user.do?sql=acnt_num=1122 // sql Injection
@@ -40,18 +41,60 @@
   A가 B가 필요하다면 B를 넣어준다.
   A의 입장에서는 어떤 객체인지 모른다.
 
-  A >>>>>>>>>>>>>>>>>>>>>>>>> B
-  A객체에서 B객체를 직접 생성
+A >>>>>>>>>>>>>>>>>>>>>>>>> B
+A객체에서 B객체를 직접 생성
 
-  \*\* 의존성 주입
-  A >>>>>>>>> ????? >>>>>>>>> B
-  A객체는 B가 필요하다는 신호만 보내고
-  B객체를 주입하는 것(갖다바치는 것)은 외부에서 이루어짐
+\*\* 의존성 주입
+A >>>>>>>>> ????? >>>>>>>>> B
+A객체는 B가 필요하다는 신호만 보내고
+B객체를 주입하는 것(갖다바치는 것)은 외부에서 이루어짐
 
-  의존성 주입을 위해 ?????? 존재가 필요하다.
-  ?????의 성함은 ApplicationContext이며,
-  필요한 객체를 생성하고, 필요한 객체를 주입해주는 역할
+의존성 주입을 위해 ?????? 존재가 필요하다.
+?????의 성함은 ApplicationContext이며,
+필요한 객체를 생성하고, 필요한 객체를 주입해주는 역할
 
-  따라서 개발자들은 기존의 프로그램 방식과 달리
-  객체와 객체를 분리해서 생성하고
-  이러한 객체를 엮는(Wiring) 작업의 형태로 개발한다.
+따라서 개발자들은 기존의 프로그램 방식과 달리
+객체와 객체를 분리해서 생성하고
+이러한 객체를 엮는(Wiring) 작업의 형태로 개발한다.
+
+3. SpringBoot
+
+   - Spring의 각종 설정 요소들을 간편하게 관리
+   - 개발의 복잡성, 설정 난이도, 웹 서버+빌드, 배포
+     => 이런 것들을 간편하게 처리
+
+4. 디렉토리 설명
+
+   - src/main/java : 서버 단의 java 파일
+   - src/test/java : 단위 테스트 java 파일
+   - src/main/resources : 설정 파일 및 View
+   - resoureces/static : css, js, image, font 경로
+   - resoureces/template : html 파일 경로
+   - pom.xml : 의존성 관리
+   - application.properties : 서버 및 DB 설정 파일
+
+5. MyBatis
+
+   - 자바 퍼시스턴스 프레임워크 중 하나
+     : 퍼시스턴스 프레임워크란 XML 서술자나
+     데이터의 저장/조회/삭제/변경을 다루는
+     클래스와 설정 집합
+   - 어노테이션(annotation)이나 XML을 이용하여
+     저장 프로시저나 SQL 문과 객체를 연결
+   - 아파치 라이선스 2.0 -> Free S/W
+
+6. MyBatis 사용 방법
+
+   - Config를 통해 Config/Driver/SessionFactory 구성
+   - Annotation 방식 또느 XML 방식의 활용
+
+     \1) Annotation
+     @Select("SELECT 1 FROM DUAL");
+     public String getDual(); // String으로 값을 돌려줌
+
+     \2) XML
+     public String getDual2(); // in Java
+
+     <select id = "getDual2">
+        SELECT 1 FROM DUAL
+     </select>
