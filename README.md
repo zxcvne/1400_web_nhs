@@ -61,13 +61,11 @@
 
 ## 🧠 Notes
 
-> “코드 한 줄보다는 개념 하나를 깊게 이해하자.”  
 > _— 개인 공부용 정리 리포지토리_
 
 ---
 
 ### 🪄 Author
-**현서님 (zxcvne)**  
 📍 Developer in training  
 📚 Studying Web Development, Java & Spring  
 🌱 _Continuous learner aiming to become a professional full-stack engineer._
