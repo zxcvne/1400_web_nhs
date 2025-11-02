@@ -1,21 +1,20 @@
-2025-11-01 17:07:33.496 - DBeaver 25.1.4.202508031529 is starting
-2025-11-01 17:07:33.499 - OS: Windows 11 10.0 (amd64)
-2025-11-01 17:07:33.500 - Java version: 21.0.5 by Eclipse Adoptium (64bit)
-2025-11-01 17:07:33.500 - Install path: 'C:\1400_web_nhs\devtools\dbeaver'
-2025-11-01 17:07:33.501 - Instance path: 'file:/C:/1400_web_nhs/02_database/workspace/'
-2025-11-01 17:07:33.505 - Memory available 64Mb/1024Mb
-2025-11-01 17:07:33.528 - Create display
-> Start Eclipse IDE UI [org.eclipse.ui.ide 3.22.600.v20250523-1502]
-2025-11-01 17:07:33.954 - Initialize desktop platform...
-2025-11-01 17:07:34.302 - BounceCastle bundle found. Use JCE provider BC
+2025-11-01 17:05:53.218 - DBeaver 25.1.4.202508031529 is starting
+2025-11-01 17:05:53.220 - OS: Windows 11 10.0 (amd64)
+2025-11-01 17:05:53.221 - Java version: 21.0.5 by Eclipse Adoptium (64bit)
+2025-11-01 17:05:53.221 - Install path: 'C:\1400_web_nhs\devtools\dbeaver'
+2025-11-01 17:05:53.221 - Instance path: 'file:/C:/1400_web_nhs/02_database/workspace/'
+2025-11-01 17:05:53.223 - Memory available 64Mb/1024Mb
+2025-11-01 17:05:53.236 - Create display
+2025-11-01 17:05:53.478 - Initialize desktop platform...
+2025-11-01 17:05:54.014 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.11.200.v20250513-1234]
 > Start Core Resource Management [org.eclipse.core.resources 3.22.200.v20250513-1234]
 > Start Team Support Core [org.eclipse.team.core 3.10.700.v20250313-0656]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.160.202508031529]
-2025-11-01 17:07:34.901 - Initialize base platform...
-2025-11-01 17:07:35.021 - Platform initialized (1066ms)
-2025-11-01 17:07:35.481 - Starting instance server at http://localhost:54445
-2025-11-01 17:07:35.498 - Run workbench
+2025-11-01 17:05:54.754 - Initialize base platform...
+2025-11-01 17:05:54.877 - Platform initialized (1398ms)
+2025-11-01 17:05:55.377 - Starting instance server at http://localhost:53902
+2025-11-01 17:05:55.388 - Run workbench
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.800.v20250422-1254]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.200.v20250326-1945]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.500.v20250123-0754]
@@ -30,17 +29,17 @@
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.600.v20250409-1135]
 > Start Default Text Editor [org.eclipse.ui.editors 3.20.0.v20250514-1719]
 > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.19.200.v20250514-1719]
-2025-11-01 17:07:40.556 - Configure workbench window
+2025-11-01 17:05:59.706 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.150.202508031529]
-2025-11-01 17:07:41.046 - Total database drivers: 124 (124)
+2025-11-01 17:06:00.443 - Total database drivers: 124 (124)
 > Start Help System Core [org.eclipse.help 3.10.500.v20250423-1201]
-2025-11-01 17:07:41.254 - Create actions
-2025-11-01 17:07:41.273 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2025-11-01 17:07:41.275 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2025-11-01 17:07:41.276 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2025-11-01 17:07:41.277 - Create workbench actions
-2025-11-01 17:07:42.749 - Initialize workbench window
-2025-11-01 17:07:42.763 - Finish initialization
+2025-11-01 17:06:00.853 - Create actions
+2025-11-01 17:06:00.877 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2025-11-01 17:06:00.881 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2025-11-01 17:06:00.884 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2025-11-01 17:06:00.886 - Create workbench actions
+2025-11-01 17:06:02.763 - Initialize workbench window
+2025-11-01 17:06:02.785 - Finish initialization
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.160.202508031529]
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.160.202508031529]
 > Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.136.202508031529]
@@ -59,8 +58,7 @@
 > Start Console [org.eclipse.ui.console 3.14.300.v20250509-1251]
 > Start Debug Core [org.eclipse.debug.core 3.23.0.v20250509-1924]
 > Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.55.202508031529]
-2025-11-01 17:07:53.713 - Dispose navigator model
-2025-11-01 17:07:54.043 - DBeaver is stopping
-2025-11-01 17:07:54.045 - Stop instance server
-2025-11-01 17:07:55.055 - Instance server has been stopped
-2025-11-01 17:07:55.057 - DBeaver shutdown completed
+2025-11-01 17:06:37.202 - Dispose navigator model
+2025-11-01 17:06:37.465 - DBeaver is stopping
+2025-11-01 17:06:37.469 - Stop instance server
+2025-11-01 17:06:38.481 - DBeaver shutdown completed
