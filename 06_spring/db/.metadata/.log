@@ -1,0 +1,44 @@
+!SESSION 2025-11-08 14:34:41.465 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en
+Framework arguments:  -eclipse.keyring C:\Users\HP\AppData\Roaming\DBeaverData\secure\secure_storage
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\1400_web_nhs\06_spring\db -eclipse.keyring C:\Users\HP\AppData\Roaming\DBeaverData\secure\secure_storage
+
+!ENTRY org.jkiss.dbeaver.model 4 0 2025-11-08 14:34:47.234
+!MESSAGE Failed to patch workbench save file: C:\1400_web_nhs\06_spring\db\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi
+!SUBENTRY 1 org.jkiss.dbeaver.model 4 0 2025-11-08 14:34:47.234
+!MESSAGE C:\1400_web_nhs\06_spring\db\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi (지정된 경로를 찾을 수 없습니다)
+!STACK 0
+java.io.FileNotFoundException: C:\1400_web_nhs\06_spring\db\.metadata\.plugins\org.eclipse.e4.workbench\workbench.xmi (지정된 경로를 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/java.io.FileInputStream.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at java.xml/javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+	at org.jkiss.dbeaver.ui.app.standalone.internal.WorkbenchPatcher.patchWorkbenchXmi(WorkbenchPatcher.java:86)
+	at org.jkiss.dbeaver.ui.app.standalone.internal.WorkbenchPatcher.patchWorkbenchXmi(WorkbenchPatcher.java:75)
+	at org.jkiss.dbeaver.ui.app.standalone.DBeaverApplication.start(DBeaverApplication.java:287)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:219)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:149)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:115)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:467)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:298)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.invokeFramework(DBeaverLauncher.java:869)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.basicRun(DBeaverLauncher.java:660)
+	at org.jkiss.dbeaver.launcher.DBeaverLauncher.run(DBeaverLauncher.java:1650)
+
+!ENTRY org.eclipse.ui 2 2 2025-11-08 14:34:54.957
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)

@@ -86,7 +86,7 @@ B객체를 주입하는 것(갖다바치는 것)은 외부에서 이루어짐
 6. MyBatis 사용 방법
 
    - Config를 통해 Config/Driver/SessionFactory 구성
-   - Annotation 방식 또느 XML 방식의 활용
+   - Annotation 방식 또는 XML 방식의 활용
 
      \1) Annotation
      @Select("SELECT 1 FROM DUAL");

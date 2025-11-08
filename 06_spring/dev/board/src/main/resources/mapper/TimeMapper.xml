@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 연결할 인터페이스 정보를 namespace에 기술 -->
+<mapper namespace="com.koreait.board.mapper.TimeMapper">
+
+	<select id="getTime2" resultType="string">
+		SELECT "Pretty Summer" FROM DUAL;
+	</select>
+
+	<!-- This is Test String 을 리턴하는 getTestString을 구현하시오 -->
+	<select id="getTestString" resultType="string">
+		SELECT "This is Test String" FROM DUAL;
+	</select>
+
+</mapper>
