@@ -14,3 +14,7 @@
 - port : 9933 // default : 3306 `mysql과 같은 포트 번호를 사용하기 때문에 충돌 방지 목적`
 - mariadb version : 12.0.2
 - 데이터베이스 통합 관리 : dbeaver
+
+mapper = db와 컨트롤러 사이
+
+1. MyBatis 연습 (계속)
