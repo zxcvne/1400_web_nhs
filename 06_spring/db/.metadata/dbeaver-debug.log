@@ -59,3 +59,7 @@
 > Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.184.202508031529]
 2025-11-09 14:21:22.692 - Execution context opened (localhost; Metadata; 1)
 2025-11-09 14:21:22.998 - Connected (mariaDB-19a61f66c80-1c18c6a68eb872d8, MariaDB Connector/J [3.5.2])
+2025-11-09 14:33:19.985 - Dispose navigator model
+2025-11-09 14:33:20.113 - DBeaver is stopping
+2025-11-09 14:33:20.114 - Stop instance server
+2025-11-09 14:33:21.127 - DBeaver shutdown completed
