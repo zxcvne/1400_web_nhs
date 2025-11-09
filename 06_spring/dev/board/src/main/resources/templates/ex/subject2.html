@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Final Score</title>
+</head>
+<body>
+	<h1>시험 결과</h1>
+	<h1>오늘의 내 기분 : [[${feel}]]</h1> 
+	<table border="1">
+		<tr>
+			<th>C</th>
+			<th>Java</th>
+			<th>Python</th>
+			<th>Total</th>
+			<th>Avg</th>
+		</tr>
+		<tr>
+			<td width="20%" th:text="*{vo.scoreC}"></td>
+			<td width="20%" th:text="*{vo.scoreJ}"></td>
+			<td width="20%" th:text="*{vo.scoreP}"></td>
+			<td width="20%" th:text="*{vo.total}"></td>
+			<td width="20%" th:text="*{vo.average}"></td>
+		</tr>
+	</table>
+</body>
+</html>
