@@ -1,0 +1,27 @@
+-- 1. 글번호를 채번할 시퀀스 생성
+-- 일반적으로 시퀀스는 seq_ 접두어를 붙임
+create sequence seq_board nocache;
+
+
+-- 2. 게시글 테이블 생성 (tbl_board)
+drop table tbl_board;
+create table tbl_board
+(
+bno int(10)	,
+title varchar(200) not null,
+content varchar(2000),
+writer varchar(50),
+regdate date default sysdate(),
+updatedate date default sysdate()
+);
+
+-- 3. Primary Key 생성
+alter table tbl_board
+add constraint primary key(bno);
+
+-- 4. Sample Date 생성
+insert into tbl_board(bno, title, content, writer)
+values (nextval(seq_board), '제목1', '내용1', '사용자1');
+
+-- 5. 데이터 확인
+select * from tbl_board;

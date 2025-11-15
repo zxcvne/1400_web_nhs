@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 
 import com.koreait.board.mapper.TimeMapper;
 
-@Repository // @Component의 자식
+@Repository // @Component의 자식 Anotation으로 DAO에 사용
 public class TimeDAO {
 	@Autowired
 	private TimeMapper mapper;

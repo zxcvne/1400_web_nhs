@@ -1,6 +1,7 @@
 dbeaver.perspectiveVersion=25.1.2
+dialog.default.folder=C\:\\1400_web_nhs\\06_spring\\db\\General\\Scripts
 driver.selector.orderBy=score
 eclipse.preferences.version=1
 sample.database.canceled=true
 tipOfTheDayInitializer.notFirstRun=true
-ui.auto.update.check.time=1762665511094
+ui.auto.update.check.time=1763192382622
