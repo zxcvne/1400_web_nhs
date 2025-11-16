@@ -6,4 +6,22 @@
 		INSERT INTO TBL_BOARD(BNO, TITLE, CONTENT, WRITER)
 		VALUES(NEXTVAL(SEQ_BOARD), #{title}, #{content}, #{writer})
 	</insert>
+	<insert id="insert2">
+		INSERT INTO TBL_BOARD(BNO, TITLE, CONTENT, WRITER)
+		VALUES(NEXTVAL(SEQ_BOARD), #{title}, #{content}, #{writer})
+	</insert>
+	<insert id="insertSelectKey">
+		<selectKey keyProperty="bno" order="BEFORE" resultType="long">
+			SELECT NEXTVAL(SEQ_BOARD) FROM DUAL
+		</selectKey>
+		INSERT INTO TBL_BOARD(BNO, TITLE, CONTENT, WRITER)
+		VALUES (#{bno}, #{title}, #{content}, #{writer})
+	</insert>
+	<select id="getList" resultType="com.koreait.board.bean.vo.BoardVO">
+	<![CDATA[
+	SELECT BNO, TITLE, CONTENT, WRITER, REGDATE, UPDATEDATE
+	FROM TBL_BOARD
+	WHERE BNO > 0
+	]]>
+	</select>
 </mapper>

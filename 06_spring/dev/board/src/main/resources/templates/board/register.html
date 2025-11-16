@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>글을 마음대로 작성하시면 되겠습니까 안되겠습니까?</h1>
+	<hr>
+	<!-- title, content, writer를 입력받아 -->
+	<!-- /board/register를 post로 전송하는 부분 만들기 -->
+	<form action="/board/register" method="post">
+		<table>
+			<tr>
+				<td>title</td>
+				<td>
+				<input type="text" name="title">
+				</td>
+			<tr>
+			<tr>
+				<td>content</td>
+				<td>
+				<input type="content" name="content">
+				</td>
+			<tr>
+			<tr>
+				<td>writer </td>
+				<td>
+				<input type="writer" name="writer">
+				</td>
+			<tr>
+		</table>
+		<button>Complete</button>
+	</form>
+
+</body>
+</html>
