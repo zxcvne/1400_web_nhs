@@ -1,7 +1,6 @@
 ## Day2
 
 1. Lombok
-
    - Lombok은 인도네시아의 섬 이름, 동남아시아의 작은 고추 이름
    - getter/setter를 자동으로 생산성
      age getAge setAge

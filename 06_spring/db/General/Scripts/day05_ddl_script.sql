@@ -25,3 +25,5 @@ values (nextval(seq_board), '제목1', '내용1', '사용자1');
 
 -- 5. 데이터 확인
 select * from tbl_board;
+
+

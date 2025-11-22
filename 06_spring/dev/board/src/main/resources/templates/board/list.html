@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>List</title>
+<link rel="stylesheet" href="/css/bootstrap.css">
+<style>
+@media ( max-width :918px) {
+	.hide {
+		display: none;
+	}
+}
+</style>
+</head>
+<body>
+	<h2 class="text-center">게시글 리스트</h2>
+	<div class="text-center">
+		<input type="button" id="write" value="글쓰기" /> <span
+			class="btn btn-sm btn-success">글쓰기2</span>
+	</div>
+	<div class="col-lg-8 text-center" style="margin: 0 auto;">
+		<br>
+		<table class="table">
+			<thead>
+				<td class="hide">번호</td>
+				<td>제목</td>
+				<td>작성자</td>
+				<td>작성일</td>
+				<td class="hide">수정일</td>
+			</thead>
+			<tbody>
+				<th:block th:each="brd:${board}">
+					<tr th:object="${brd}">
+						<td th:text="*{bno}" class="hide">
+						<td th:text="*{title}">
+						<td th:text="*{writer}">
+						<td th:text="*{regdate}">
+						<td th:text="*{updatedate}" class="hide">
+					</tr>
+				</th:block>
+			</tbody>
+		</table>
+	</div>
+</body>
+<script th:inline="javascript">
+	var btn1 = document.getElementById("write");
+	var btn2 = document.querySelector("span.btn");
+
+	btn1.addEventListener("click", function() {
+		location.href = "/board/register";
+	});
+
+	btn2.addEventListener("click", function() {
+		location.href = "/board/register";
+	});
+	
+	var msg = [[${msg}]];
+	if(msg){
+		alert(msg);
+	}
+</script>
+</html>

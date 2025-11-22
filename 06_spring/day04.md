@@ -15,7 +15,6 @@
    생성하는 역할을 한다.
 
 **특징**
-
 - HttpServletRequest와 HttpServletResponse을 사용안함
 - 다양한 타입의 파라미터 처리, 다양한 타입의 리턴 처리
 - GET/POST 등 전송 방식에 대한 처리를 어노테이션으로 처리

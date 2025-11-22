@@ -15,11 +15,26 @@ public class BoardDAO {
 	
 	// register(insert)
 	public int register(BoardVO board) {
-		return mapper.insert(board);
+		return mapper.insertSelectKey(board);
 	}
 	
 	// getList
 	public List<BoardVO> getList() {
 		return mapper.getList();
+	}
+	
+	// remove(delete)
+	public int remove(Long bno) {
+		return mapper.delete(bno);
+	}
+	
+	// modify(update)
+	public int modify(BoardVO vo) {
+		return mapper.update(vo);
+	}
+	
+	// read(get)
+	public BoardVO read(Long bno) {
+		return mapper.get(bno);
 	}
 }

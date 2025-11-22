@@ -6,6 +6,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import org.springframework.web.servlet.view.RedirectView;
 
 import com.koreait.board.bean.dao.BoardDAO;
 import com.koreait.board.bean.vo.BoardVO;
@@ -27,7 +29,7 @@ public class BoardController {
 	}
 	
 	@PostMapping("register")
-	public void regist(BoardVO board) {
+	public RedirectView register(BoardVO board, RedirectAttributes rttr) {
 		// 본체로부터 받은 title, content, writer를 출력해보세요.
 		log.info("register called");
 		log.info("board : " + board);
@@ -37,6 +39,9 @@ public class BoardController {
 		}else {
 			log.info("너 지금 뭐 보낸거냐?");
 		}
+		
+		rttr.addFlashAttribute("msg", board.getBno() + "번 글 등록이 완료되었습니다.");
+		return new RedirectView("list");
 	}
 
 	@GetMapping("list")

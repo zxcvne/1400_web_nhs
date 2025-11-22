@@ -1,3 +1,0 @@
--- 1.글번호를 채번할 시퀀스 생성
--- 일반저긍로 시퀀스는 seq_ 접두어를 붙임
-create sequence seq_board nocache;

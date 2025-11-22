@@ -22,7 +22,7 @@
 
 5. 3-tier 구조
 
-   - Spring 프로젝트는 3-tire 방식으로 구현된다.
+   - Spring 프로젝트는 3-tier 방식으로 구현된다.
 
    [Presentation]
    화면에 보여지는 기술을 사용하는 영역

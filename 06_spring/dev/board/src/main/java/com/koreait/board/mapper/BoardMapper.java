@@ -21,4 +21,16 @@ public interface BoardMapper {
 	
 	// 리스트 조회
 	public List<BoardVO> getList();
+	
+	// 게시글 삭제
+	public int delete(Long bno);
+	
+	// 게시글 수정
+	public int update(BoardVO vo);
+	
+	// 게시글 조회
+	public BoardVO get(Long bno);
+	
+	
+	
 }

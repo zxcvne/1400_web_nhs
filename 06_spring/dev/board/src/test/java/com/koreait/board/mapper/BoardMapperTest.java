@@ -6,6 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.koreait.board.bean.vo.BoardVO;
 import com.koreait.board.bean.vo.TestVO;
+import com.koreait.board.util.MyUtil;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -49,5 +50,44 @@ public class BoardMapperTest {
 		mapper.getList()
 			.forEach(board->log.info("Board : " + board));;
 	}
+	
+	@Test
+	public void testDeleteList() {
+		Long bno = 3L;
+		
+		int result = mapper.delete(bno);
+		if(result > 0) {
+			log.info(MyUtil.getColor()+ bno + "번 글 삭제 성공" + MyUtil.END);
+		}else {
+			log.info(MyUtil.getColor() + "헛스윙" + MyUtil.END);
+		}	
+	}
+	
+	@Test
+	public void testUpdate() {
+		BoardVO vo = new BoardVO();
+		
+		vo.setBno(4L);
+		vo.setTitle("애런 저지 의 25년 성적");
+		vo.setContent("타율 .331로 미국리그 타율 1위 MLB\r\n"
+				+ "96개의 배럴(Barrel, 타구의 질을 나타내는 지표) MLB\r\n"
+				+ "2025 MVP 수상 Baseball-Reference.com");
+		vo.setWriter("claude");
+		
+		int result = mapper.update(vo);
+		if(result > 0) {
+			log.info(MyUtil.getColor()+ vo.getBno() + "번 글 수정 성공" + MyUtil.END);
+		}else {
+			log.info(MyUtil.getColor() + "헛스윙" + MyUtil.END);
+		}
+	}
+	
+	@Test
+	public void testGet() {
+		Long bno = 4L;
+		BoardVO vo = mapper.get(bno);
+		log.info(MyUtil.getColor()+"Read VO : " + vo + MyUtil.END);
+	}
+	
 	
 }

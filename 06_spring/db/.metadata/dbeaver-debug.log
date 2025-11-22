@@ -1,21 +1,20 @@
-2025-11-16 14:25:09.143 - DBeaver 25.1.4.202508031529 is starting
-2025-11-16 14:25:09.145 - OS: Windows 11 10.0 (amd64)
-2025-11-16 14:25:09.145 - Java version: 21.0.5 by Eclipse Adoptium (64bit)
-2025-11-16 14:25:09.145 - Install path: 'C:\1400_web_nhs\devtools\dbeaver'
-2025-11-16 14:25:09.145 - Instance path: 'file:/C:/1400_web_nhs/06_spring/db/'
-2025-11-16 14:25:09.148 - Memory available 64Mb/1024Mb
-2025-11-16 14:25:09.157 - Create display
-> Start Eclipse IDE UI [org.eclipse.ui.ide 3.22.600.v20250523-1502]
-2025-11-16 14:25:09.343 - Initialize desktop platform...
-2025-11-16 14:25:09.475 - BounceCastle bundle found. Use JCE provider BC
+2025-11-22 14:09:05.474 - DBeaver 25.1.4.202508031529 is starting
+2025-11-22 14:09:05.479 - OS: Windows 11 10.0 (amd64)
+2025-11-22 14:09:05.480 - Java version: 21.0.5 by Eclipse Adoptium (64bit)
+2025-11-22 14:09:05.480 - Install path: 'C:\1400_web_nhs\devtools\dbeaver'
+2025-11-22 14:09:05.481 - Instance path: 'file:/C:/1400_web_nhs/06_spring/db/'
+2025-11-22 14:09:05.485 - Memory available 64Mb/1024Mb
+2025-11-22 14:09:05.527 - Create display
+2025-11-22 14:09:06.010 - Initialize desktop platform...
+2025-11-22 14:09:06.546 - BounceCastle bundle found. Use JCE provider BC
 > Start Core File Systems [org.eclipse.core.filesystem 1.11.200.v20250513-1234]
 > Start Core Resource Management [org.eclipse.core.resources 3.22.200.v20250513-1234]
-> Start Team Support Core [org.eclipse.team.core 3.10.700.v20250313-0656]
 > Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.160.202508031529]
-2025-11-16 14:25:09.678 - Initialize base platform...
-2025-11-16 14:25:09.696 - Platform initialized (353ms)
-2025-11-16 14:25:09.879 - Starting instance server at http://localhost:54095
-2025-11-16 14:25:09.895 - Run workbench
+> Start Team Support Core [org.eclipse.team.core 3.10.700.v20250313-0656]
+2025-11-22 14:09:07.413 - Initialize base platform...
+2025-11-22 14:09:07.490 - Platform initialized (1480ms)
+2025-11-22 14:09:10.289 - Starting instance server at http://localhost:55713
+2025-11-22 14:09:10.381 - Run workbench
 > Start Eclipse e4 Workbench SWT [org.eclipse.e4.ui.workbench.swt 0.17.800.v20250422-1254]
 > Start Eclipse Application Services [org.eclipse.e4.core.services 2.5.200.v20250326-1945]
 > Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.6.500.v20250123-0754]
@@ -30,17 +29,17 @@
 > Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.15.600.v20250409-1135]
 > Start Default Text Editor [org.eclipse.ui.editors 3.20.0.v20250514-1719]
 > Start Text Editor Framework [org.eclipse.ui.workbench.texteditor 3.19.200.v20250514-1719]
-2025-11-16 14:25:13.369 - Configure workbench window
+2025-11-22 14:10:13.188 - Configure workbench window
 > Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.150.202508031529]
-2025-11-16 14:25:13.829 - Total database drivers: 124 (124)
+2025-11-22 14:10:14.061 - Total database drivers: 124 (124)
 > Start Help System Core [org.eclipse.help 3.10.500.v20250423-1201]
-2025-11-16 14:25:13.908 - Create actions
-2025-11-16 14:25:13.914 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
-2025-11-16 14:25:13.915 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
-2025-11-16 14:25:13.915 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
-2025-11-16 14:25:13.916 - Create workbench actions
-2025-11-16 14:25:14.545 - Initialize workbench window
-2025-11-16 14:25:14.553 - Finish initialization
+2025-11-22 14:10:14.282 - Create actions
+2025-11-22 14:10:14.305 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2025-11-22 14:10:14.306 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2025-11-22 14:10:14.306 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2025-11-22 14:10:14.307 - Create workbench actions
+2025-11-22 14:10:16.263 - Initialize workbench window
+2025-11-22 14:10:16.278 - Finish initialization
 > Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.160.202508031529]
 > Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.160.202508031529]
 > Start DBeaver SQL Terminal [org.jkiss.dbeaver.ui.editors.sql.terminal 1.0.136.202508031529]
@@ -51,7 +50,7 @@
 > Start Internet Connection Management UI [org.eclipse.ui.net 1.5.400.v20240413-1529]
 > Start Internet Connection Management [org.eclipse.core.net 1.5.700.v20250313-0656]
 > Start DBeaver Sample Database [org.jkiss.dbeaver.ui.config.sample 1.0.197.202508031529]
-2025-11-16 14:25:19.514 - Open [https://dbeaver.io/product/version.xml]
+2025-11-22 14:10:24.270 - Open [https://dbeaver.io/product/version.xml]
 > Start DBeaver Dashboard UI [org.jkiss.dbeaver.ui.dashboard 1.0.157.202508031529]
 > Start GEF Classic Draw2d [org.eclipse.draw2d 3.20.0.202505280821]
 > Start GEF Classic GEF (MVC) [org.eclipse.gef 3.22.0.202505280821]
@@ -61,18 +60,20 @@
 > Start DBeaver MySQL Support [org.jkiss.dbeaver.ext.mysql 2.1.245.202508031529]
 > Start Console [org.eclipse.ui.console 3.14.300.v20250509-1251]
 > Start Debug Core [org.eclipse.debug.core 3.23.0.v20250509-1924]
+> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.55.202508031529]
 > Start DBeaver Tasks - Native Tools UI [org.jkiss.dbeaver.tasks.native.ui 1.0.138.202508031529]
 > Start DBeaver MySQL UI Support [org.jkiss.dbeaver.ext.mysql.ui 1.0.152.202508031529]
 > Start DBeaver Tasks - General UI [org.jkiss.dbeaver.tasks.ui 1.0.138.202508031529]
-> Start DBeaver SQL Language Semantic Model [org.jkiss.dbeaver.model.lsm 1.0.55.202508031529]
-2025-11-16 14:25:22.020 - Connect with 'localhost' (mariaDB-19a61f66c80-1c18c6a68eb872d8)
-2025-11-16 14:25:22.075 - Execution context opened (localhost; Main; 0)
+2025-11-22 14:10:29.237 - Connect with 'localhost' (mariaDB-19a61f66c80-1c18c6a68eb872d8)
+2025-11-22 14:10:29.299 - Execution context opened (localhost; Main; 0)
 > Start DBeaver GIS Support [org.jkiss.dbeaver.data.gis 1.0.184.202508031529]
-2025-11-16 14:25:22.500 - Execution context opened (localhost; Metadata; 1)
-2025-11-16 14:25:22.690 - Connected (mariaDB-19a61f66c80-1c18c6a68eb872d8, MariaDB Connector/J [3.5.2])
-2025-11-16 14:25:22.784 - Execution context opened (localhost; SQLEditor <day05_ddl_script.sql>; 2)
-2025-11-16 17:40:02.875 - Execution context closed (localhost, 2)
-2025-11-16 17:40:04.029 - Dispose navigator model
-2025-11-16 17:40:04.171 - DBeaver is stopping
-2025-11-16 17:40:04.177 - Stop instance server
-2025-11-16 17:40:05.186 - DBeaver shutdown completed
+2025-11-22 14:10:29.691 - Execution context opened (localhost; Metadata; 1)
+2025-11-22 14:10:29.907 - Connected (mariaDB-19a61f66c80-1c18c6a68eb872d8, MariaDB Connector/J [3.5.2])
+2025-11-22 14:10:30.148 - Execution context opened (localhost; SQLEditor <day05_ddl_script.sql>; 2)
+> Start DBeaver Data Transfer [org.jkiss.dbeaver.data.transfer 2.0.144.202508031529]
+2025-11-22 17:35:54.045 - Execution context closed (localhost, 2)
+2025-11-22 17:35:55.439 - Dispose navigator model
+2025-11-22 17:35:55.566 - DBeaver is stopping
+2025-11-22 17:35:55.568 - Stop instance server
+2025-11-22 17:35:56.578 - Instance server has been stopped
+2025-11-22 17:35:56.579 - DBeaver shutdown completed

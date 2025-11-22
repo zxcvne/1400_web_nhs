@@ -16,7 +16,6 @@
     <fullyQualifiedTypeName name="com.koreait.board.mapper.TimeMapper"/>
     <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Mapper"/>
     <fullyQualifiedTypeName name="org.springframework.boot.test.context.SpringBootTest"/>
-    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="com.koreait.board.bean.dao.BoardVO"/>
     <fullyQualifiedTypeName name="com.koreait.board.bean.vo.SubjectVO"/>
     <fullyQualifiedTypeName name="com.koreait.board.bean.vo.TestVO"/>
@@ -34,5 +33,6 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
     <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="com.koreait.board.util.MyUtil"/>
 </qualifiedTypeNameHistroy>
